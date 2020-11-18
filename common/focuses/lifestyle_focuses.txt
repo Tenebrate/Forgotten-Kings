@@ -1,0 +1,39 @@
+adventure_barbarian_focus = {
+	lifestyle = adventure_lifestyle
+	
+	modifier = {
+		martial = 3
+		prowess = 3
+		learning = -1
+	}
+
+	desc = {
+		desc = adventure_barbarian_focus_desc
+		desc = line_break
+	}
+
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_trait = wroth
+				has_trait = aggressive_attacker
+			}
+			add = 3
+		}
+		if = {
+			limit = {
+				has_trait = beserker
+			}
+			add = 1989
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 0
+		}
+	}
+	
+	focus_id = 15
+}
