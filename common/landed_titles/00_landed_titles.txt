@@ -1,288 +1,131 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
 
-e_evermeet = {
-	color={ 112 240 65 }
-	color2={ 255 255 255 }
-
-	capital = c_leuthilspar
+e_test = {
+	color =  hsv{ 0.9 1 0.3 } #hsv{ 0.73 0.8 0.4 }  #hsv{ 0.77 0.8 0.6 } #{ 143 12 125 }
+	color2 = { 255 255 255 }
 	
-	#ai_primary_priority = {
-	#	if = {
-	#		limit = {
-	#			OR = {
-	#				culture = culture:sun_elf
-	#				culture = culture:moon_elf
-	#				culture = culture:wood_elf
-	#				culture = culture:green_elf
-	#				culture = culture:drow
-	#				culture = culture:feyri
-	#			}
-	#		}
-	#		add = @correct_culture_primary_score
-	#	}
-	#}
+	capital = c_test_1
 	
-	k_evermeet = {
-		color={ 101 214 58 }
-		color2={ 255 255 255 }
-		
-		capital = c_leuthilspar
-		
-		#ai_primary_priority = {
-		#	if = {
-		#		limit = {
-		#			OR = {
-		#				culture = culture:sun_elf
-		#				culture = culture:moon_elf
-		#				culture = culture:wood_elf
-		#				culture = culture:green_elf
-		#				culture = culture:drow
-		#				culture = culture:feyri
-		#				culture = culture:sea_elf
-		#				culture = culture:maraloi
-		#				culture = culture:poscadar
-		#				culture = culture:fey_eladrin
-		#				culture = culture:centaur
-		#			}
-		#		}
-		#		add = @correct_culture_primary_score
-		#	}
-		#}
-		
-		d_ardulith_vale = {
-			color={ 57 212 2 }
-			color2={ 255 255 255 }
-			
-			capital = c_leuthilspar
-			
-			c_leuthilspar = {
-				color={ 65 240 2 }
-				color2={ 255 255 255 }
-				
-				b_leuthilspar = {
-					province = 19
-					color={ 168 57 137 }
-					color2={ 255 255 255 }
-				}
-				b_omhlune = {
-					province = 20
-					color={ 0 60 10 }
-					color2={ 255 255 255 }
-				}
-				b_caanthaes = {
-					province = 21
-					color={ 42 63 138 }
-					color2={ 255 255 255 }
-				}
-				b_anonore = {
-					province = 22
-					color={ 84 66 11 }
-					color2={ 255 255 255 }
-				}
-				b_shylsethalas = {
-					province = 23
-					color={ 126 69 139 }
-					color2={ 255 255 255 }
-				}
+	definite_form = yes
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:greek
 			}
-			c_eagle_hills = {
-				color={ 75 222 22 }
-				color2={ 255 255 255 }
-				
-				b_helespa = {
-					province = 24
-					color={ 168 72 12 }
-					color2={ 255 255 255 }
-				}
-				b_uadinsa = {
-					province = 25
-					color={ 0 75 140 }
-					color2={ 255 255 255 }
-				}
-				b_ahlin = {
-					province = 26
-					color={ 42 78 13 }
-					color2={ 255 255 255 }
-				}
-				b_asymsari = {
-					province = 27
-					color={ 126 84 14 }
-					color2={ 255 255 255 }
-				}
-			}
-			c_silver_hills = {
-				color={ 82 219 33 }
-				color2={ 255 255 255 }
-				
-				b_everantha = {
-					province = 29
-					color={ 168 87 142 }
-					color2={ 255 255 255 }
-				}
-				b_tyathalael = {
-					province = 30
-					color={ 0 90 15 }
-					color2={ 255 255 255 }
-				}
-				b_fyfe_ortheiad = {
-					province = 31
-					color={ 42 93 143 }
-					color2={ 255 255 255 }
-				}
-				b_eshelanno = {
-					province = 32
-					color={ 84 96 16 }
-					color2={ 255 255 255 }
-				}
-			}
-			c_shaelyn = {
-				color={ 62 176 21 }
-				color2={ 255 255 255 }
-				
-				b_summer_palace = {
-					province = 33
-					color={ 126 99 144 }
-					color2={ 255 255 255 }
-				}
-				b_shaelynsrun = {
-					province = 34
-					color={ 168 102 17 }
-					color2={ 255 255 255 }
-				}
-				b_yessael = {
-					province = 35
-					color={ 0 105 145 }
-					color2={ 255 255 255 }
-				}
-				b_telfara = {
-					province = 36
-					color={ 42 108 18 }
-					color2={ 255 255 255 }
-				}
-			}
-		}
-		
-		d_northgroves = {
-			color={ 109 196 77 }
-			color2={ 255 255 255 }
-			
-			capital = c_ruith
-			
-			c_ruith = {
-				color={ 71 196 27 }
-				color2={ 255 255 255 }
-				
-				b_ruith = {
-					province = 14
-					color={ 168 42 7 }
-					color2={ 255 255 255 }
-				}
-				b_ayenore = {
-					province = 15
-					color={ 0 45 135 }
-					color2={ 255 255 255 }
-				}
-				b_omren_dorthore = {
-					province = 16
-					color={ 42 48 8 }
-					color2={ 255 255 255 }
-				}
-				b_sellatheas = {
-					province = 17
-					color={ 84 51 136 }
-					color2={ 255 255 255 }
-				}
-				b_fiano = {
-					province = 18
-					color={ 126 54 9 }
-					color2={ 255 255 255 }
-				}
-			}
-			c_corellons_grove = {
-				color={ 101 158 81 }
-				color2={ 255 255 255 }
-				
-				b_corellons_grove = {
-					province = 6
-					color={ 168 45 177 }
-					color2={ 255 255 255 }
-				}
-				b_lyrion = {
-					province = 7
-					color={ 84 21 131 }
-					color2={ 255 255 255 }
-				}
-				b_nythle_serin = {
-					province = 8
-					color={ 126 24 4 }
-					color2={ 255 255 255 }
-				}
-				b_ifsashys = {
-					province = 9
-					color={ 168 27 132 }
-					color2={ 255 255 255 }
-				}
-			}
-			
-			c_eilon = {
-				color={ 126 212 94 }
-				color2={ 255 255 255 }
-				
-				b_elion = {
-					province = 1
-					color={ 42 3 128 }
-					color2={ 255 255 255 }
-				}
-				b_craulnober = {
-					province = 2
-					color={ 84 6 1 }
-					color2={ 255 255 255 }
-				}
-				b_thelmbel = {
-					province = 3
-					color={ 126 9 129 }
-					color2={ 255 255 255 }
-				}
-				b_olelume = {
-					province = 4
-					color={ 168 12 2 }
-					color2={ 255 255 255 }
-				}
-				b_ima = {
-					province = 5
-					color={ 0 15 130 }
-					color2={ 255 255 255 }
-				}
-			}
-			c_taltempla = {
-				color={ 77 179 41 }
-				color2={ 255 255 255 }
-				
-				b_taltempla = {
-					province = 10
-					color={ 0 30 5 }
-					color2={ 255 255 255 }
-				}
-				b_belu = {
-					province = 11
-					color={ 42 33 133 }
-					color2={ 255 255 255 }
-				}
-				b_horsefields = {
-					province = 12
-					color={ 84 36 6 }
-					color2={ 255 255 255 }
-				}
-				b_dorio = {
-					province = 13
-					color={ 26 39 134 }
-					color2={ 255 255 255 }
-				}
-			}
-		}
-		
-		d_sea_glades = {
-			color={ 81 174 129 }
-			color2={ 255 255 255 }
+			add = @correct_culture_primary_score
 		}
 	}
+	
+	k_test = {
+		color = { 175 30 130 }
+		color2 = { 255 255 23 }
+		
+		capital = c_test_1
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:greek
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_test_1 = {
+			color = { 180 25 100 }
+			color2 = { 255 255 255 }
+			
+			capital = c_test_1
+			c_test_1 = {
+				color = { 170 55 90 }
+				color2 = { 255 255 255 }
+				
+				b_test_1 = {
+					province = 1
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_test_2 = {
+					province = 2
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_test_2 = {
+				color = { 170 55 90 }
+				color2 = { 255 255 255 }
+				
+				#capital = 497 # Brysis / Verissa
+				
+				b_test_3 = {
+					province = 3
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_test_4 = {
+					province = 4
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_test_2 = {
+			color = { 180 25 100 }
+			color2 = { 255 255 255 }
+			
+			capital = c_test_3
+			c_test_3 = {
+				color = { 170 55 90 }
+				color2 = { 255 255 255 }
+				
+				b_test_5 = {
+					province = 5
+					
+					color = { 170 55 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_test_6 = {
+					province = 6
+					
+					color = { 170 65 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_test_4 = {
+				color = { 170 55 90 }
+				color2 = { 255 255 255 }
+				
+				#capital = 497 # Brysis / Verissa
+				
+				b_test_7 = {
+					province = 7
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+				
+				b_test_8 = {
+					province = 8
+					
+					color = { 170 75 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		}
+	
 }
