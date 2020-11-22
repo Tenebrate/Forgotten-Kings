@@ -1,0 +1,2 @@
+1) unpack it!
+2) place it in gfx\map\terrain\
