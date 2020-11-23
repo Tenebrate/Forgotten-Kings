@@ -1,0 +1,393 @@
+class_wizard = {
+	index = 300
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	learning = 3
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+	ai_rationality = 15
+}
+
+class_master_wizard = {
+	index = 301
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	learning = 6
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
+	ai_rationality = 15
+}
+
+class_sorcerer = {
+	index = 302
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 4
+	diplomacy = 2
+	learning = 1
+	ai_boldness = 15
+	ai_energy = 10
+}
+
+class_master_sorcerer = {
+	index = 303
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 7
+	diplomacy = 4
+	learning = 2
+	ai_boldness = 15
+	ai_energy = 10
+}
+
+class_warlock = {
+	index = 304
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	intrigue = 2
+	learning = 1
+	ai_zeal = -10
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+}
+
+class_master_warlock = {
+	index = 305
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	intrigue = 4
+	learning = 2
+	ai_zeal = -10
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.1
+}
+
+class_cleric = {
+	index = 306
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	learning = 2
+	diplomacy = 1
+	ai_zeal = 20
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+}
+
+class_master_cleric = {
+	index = 307
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	learning = 4
+	diplomacy = 2
+	ai_zeal = 20
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
+}
+
+class_paladin = {
+	index = 308
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 4
+	martial = 2
+	learning = 1
+	diplomacy = 1
+	ai_zeal = 20
+	ai_boldness = 15
+	ai_war_chance = 10
+}
+
+class_master_paladin = {
+	index = 309
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 8
+	martial = 4
+	learning = 2
+	diplomacy = 2
+	ai_zeal = 20
+	ai_boldness = 15
+	ai_war_chance = 10
+}
+
+class_druid = {
+	index = 310
+	random_creation = 5
+	
+	# Add triggered opinions later
+
+	prowess = 3
+	learning = 3
+	stewardship = 1
+	ai_zeal = 15
+	ai_greed = -10
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+}
+
+class_master_druid = {
+	index = 311
+	random_creation = 0
+	
+	# Add triggered opinions later
+
+	prowess = 6
+	learning = 6
+	stewardship = 2
+	ai_zeal = 15
+	ai_greed = -10
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+}
+
+class_bard = {
+	index = 312
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	diplomacy = 3
+	learning = 1
+	intrigue = 1
+	ai_energy = 10
+	ai_rationality = -5
+	ai_boldness = 5
+}
+
+class_master_bard = {
+	index = 313
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	diplomacy = 6
+	learning = 2
+	intrigue = 2
+	ai_energy = 10
+	ai_rationality = -5
+	ai_boldness = 5
+}
+
+class_psion = {
+	index = 314
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	learning = 2
+	diplomacy = 2
+	ai_rationality = 20
+	ai_sociability = -5
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+}
+
+class_master_psion = {
+	index = 315
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	learning = 4
+	diplomacy = 4
+	ai_rationality = 20
+	ai_sociability = -5
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+}
+
+class_rogue = {
+	index = 316
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	intrigue = 3
+	ai_compassion = -10
+	ai_greed = 20
+	ai_honor = -15
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.1
+}
+
+class_master_rogue = {
+	index = 317
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	intrigue = 6
+	ai_compassion = -10
+	ai_greed = 20
+	ai_honor = -15
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
+}
+
+class_ranger = {
+	index = 318
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 4
+	intrigue = 2
+	stewardship = 1
+	ai_boldness = 10
+	ai_energy = 10
+	monthly_martial_lifestyle_xp_gain_mult = 0.05
+}
+
+class_master_ranger = {
+	index = 319
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 8
+	intrigue = 4
+	stewardship = 2
+	ai_boldness = 10
+	ai_energy = 10
+	monthly_martial_lifestyle_xp_gain_mult = 0.1
+}
+
+class_fighter = {
+	index = 320
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 5
+	martial = 2
+	ai_boldness = 20
+	ai_energy = 10
+	ai_war_chance = 15
+	monthly_martial_lifestyle_xp_gain_mult = 0.1
+}
+
+class_master_fighter = {
+	index = 321
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 10
+	martial = 4
+	ai_boldness = 20
+	ai_energy = 10
+	ai_war_chance = 15
+	monthly_martial_lifestyle_xp_gain_mult = 0.2
+}
+
+class_barbarian = {
+	index = 322
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	martial = 1
+	ai_boldness = 25
+	ai_energy = 15
+	ai_war_chance = 25
+	monthly_martial_lifestyle_xp_gain_mult = 0.05
+}
+
+class_master_barbarian = {
+	index = 323
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 12
+	martial = 2
+	ai_boldness = 25
+	ai_energy = 15
+	ai_war_chance = 25
+	monthly_martial_lifestyle_xp_gain_mult = 0.1
+}
+
+class_monk = {
+	index = 324
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	martial = 1
+	learning = 1
+	stewardship = 1
+	ai_greed = -20
+	ai_honor = 10
+	ai_zeal = 10
+	ai_war_chance = -10
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+}
+
+class_master_monk = {
+	index = 325
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	martial = 2
+	learning = 2
+	stewardship = 2
+	ai_greed = -20
+	ai_honor = 10
+	ai_zeal = 10
+	ai_war_chance = -10
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
+}
+
+class_artificer = {
+	index = 326
+	random_creation = 5
+	
+	# Add triggered opinions later
+	
+	prowess = 3
+	stewardship = 2
+	learning = 1
+	ai_rationality = 10
+	ai_energy = 10
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+}
+
+class_master_artificer = {
+	index = 327
+	random_creation = 0
+	
+	# Add triggered opinions later
+	
+	prowess = 6
+	stewardship = 4
+	learning = 2
+	ai_rationality = 10
+	ai_energy = 10
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+}
