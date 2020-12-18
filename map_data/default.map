@@ -1,7 +1,7 @@
 #max_provinces = 1466
 definitions = "definition.csv"
 provinces = "provinces.png"
-#positions = "positions.txt"
+positions = "positions.txt"
 rivers = "rivers.png"
 #terrain_definition = "terrain.txt"
 topology = "heightmap.heightmap"
@@ -45,3 +45,4 @@ seasons = "seasons.txt"
 # These provinces cause issues because they are passable land, but not part of any title.
 # They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
 
+impassable_mountains = LIST { 281 }

@@ -572,7 +572,7 @@ e_northern_realms = {
 				b_shield_way = {
 					province = 40
 					
-					color = { 224 108 108 }
+					color = { 228 46 182 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -584,7 +584,7 @@ e_northern_realms = {
 				b_eyegad = {
 					province = 41
 					
-					color = { 224 108 108 }
+					color = { 74 111 99 }
 					color2 = { 255 255 255 }
 				}
 				
@@ -859,7 +859,7 @@ e_northern_realms = {
 				b_vilkstead = {
 					province = 62
 					
-					color = { 166 7 227 }
+					color = { 201 147 222 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -999,7 +999,7 @@ e_northern_realms = {
 				b_garumns_gorge = {
 					province = 77
 					
-					color = { 139 177 126 }
+					color = { 125 183 106 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -3276,7 +3276,7 @@ e_northern_realms = {
 				}
 				
 				b_elven_port = {
-					province = 281
+					province = 288
 					
 					color = { 85 141 64 }
 					color2 = { 255 255 255 }
