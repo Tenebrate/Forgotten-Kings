@@ -516,7 +516,7 @@ illuskan_group = {
 			{ "dynn_Ivek" }
 			{ "dynn_Songar" }
 			{ "dynn_Tson" }
-			{ "dynn_Jhunar" ]
+			{ "dynn_Jhunar" }
 		}
 		
 		dynasty_of_location_prefix = "dynnp_of"
