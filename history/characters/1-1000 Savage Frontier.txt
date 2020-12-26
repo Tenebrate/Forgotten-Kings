@@ -1,0 +1,387 @@
+1 = {
+	name = "Baram"
+	dynasty = 1
+	culture = nelanthern
+	faith = deities_of_fury
+	prowess = 10
+	martial = 9
+	diplomacy = 5
+	learning = 3
+	intrigue = 7
+	stewardship = 6
+	trait = master_fighter
+	trait = creature_human
+	trait = fortune_builder
+	trait = brave
+	trait = calm
+	trait = greedy
+	trait = patient
+	trait = callous
+	trait = wererat
+	disallow_random_traits = yes
+	1280.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {
+		employer = X
+	}
+	1372.1.1 = {
+		death = { death_reason = death_duel } # Add Hero of Neverwinter as killer later
+	}
+}
+2 = {
+	name = "Kurth"
+	dynasty = 2
+	culture = nelanthern
+	faith = deities_of_fury
+	prowess = 10
+	martial = 7
+	diplomacy = 4
+	learning = 3
+	intrigue = 8
+	stewardship = 6
+	trait = creature_human
+	trait = master_fighter
+	trait = confident_knight
+	trait = wrathful
+	trait = impatient
+	trait = greedy
+	trait = callous
+	disallow_random_traits = yes
+	1290.1.1 = {
+		birth = yes
+		employer = 1
+	}
+	1361.1.1 = {
+		employer = 9
+	}
+	1372.1.1 = {
+		death = { death_reason = death_duel } # Add Hero of Neverwinter as killer later
+	}
+}
+3 = {
+	name = "Galen"
+	dynasty = 3
+	culture = nelanthern
+	faith = deities_of_fury
+	trait = creature_human
+	1220.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+4 = {
+	name = "Jenus"
+	dynasty = 3
+	culture = nelanthern
+	faith = deities_of_fury
+	trait = creature_human
+	father = 3
+	1240.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+5 = {
+	name = "Kaleth"
+	dynasty = 4
+	culture = nelanthern
+	faith = deities_of_fury
+	father = 3
+	1242.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+6 = {
+	name = "Rethnor"
+	dynasty = 3
+	culture = nelanthern
+	faith = deities_of_fury
+	prowess = 7
+	martial = 5
+	diplomacy = 5
+	learning = 3
+	intrigue = 9
+	stewardship = 8
+	trait = creature_human
+	trait = master_fighter
+	trait = rogue
+	trait = greedy
+	trait = callous
+	trait = confident_knight
+	father = 4
+	1290.1.1 = {
+		birth = yes
+		employer = 1
+	}
+	1361.1.1 = {
+		employer = 9
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+7 = {
+	name = "Kensidan"
+	dynasty = 3 # Rethnor
+	culture = illuskan
+	faith = illuski
+	intrigue = 7
+	trait = creature_human
+	trait = intricate_webweaver
+	trait = deceitful
+	trait = arbitrary
+	father = 6
+	1340.1.1 = {
+		birth = yes
+		employer = 1
+	}
+	1361.1.1 = {
+		employer = 9
+	}
+	1369.1.1 = {
+		give_nickname = nick_the_crow
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+8 = {
+	name = "Suljack"
+	dynasty = 4
+	culture = nelanthern
+	faith = deities_of_fury
+	prowess = 5
+	martial = 5
+	diplomacy = 8
+	learning = 5
+	intrigue = 8
+	stewardship = 9
+	trait = creature_human
+	trait = rogue
+	trait = ambitious
+	trait = callous
+	trait = greedy
+	disallow_random_traits = yes
+	father = 5
+	1290.1.1 = {
+		birth = yes
+		employer = 1
+	}
+	1361.1.1 = {
+		employer = 9
+	}
+	1376.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+9 = {
+	name = "Taerl"
+	dynasty = 5
+	culture = nelanthern
+	faith = deities_of_fury
+	prowess = 10
+	martial = 5
+	diplomacy = 8
+	learning = 5
+	intrigue = 9
+	stewardship = 7
+	trait = creature_human
+	trait = skilled_tactician
+	trait = greedy	
+	trait = ambitious
+	trait = master_fighter
+	disallow_random_traits = yes
+	1290.1.1 = {
+		birth = yes
+		employer = 1
+	}
+	1361.1.1 = {
+		employer = 9
+	}
+	1377.1.1 = {
+		death = yes
+	}
+}
+10 = {
+	name = "Deudermont"
+	dynasty = 6 # Seafarer
+	culture = highcoaster
+	faith = thorass
+	trait = creature_human
+	trait = fighter
+	trait = just
+	trait = brave
+	1332.1.1 = {
+		birth = yes
+	}
+	1378.1.1 = {
+		death = { death_reason = death_duel killer = 7 }
+	}
+}
+11 = {
+	name = "Beniago"
+	dynasty = 2 # Kurth
+	culture = half_moon_elf
+	faith = illuski
+	intrigue = 7
+	trait = creature_half_elf # Polymorphed Drow
+	trait = rogue
+	trait = ambitious
+	trait = patient
+	trait = intricate_webweaver
+	1440.1.1 = {
+		birth = yes
+		culture = illuskan
+	}
+	1470.1.1 = {
+		immortal_age = 30
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+12 = {
+	name = "Barri"
+	dynasty = 1 # Baram
+	female = yes
+	culture = illuskan
+	faith = illuski
+	trait = creature_human
+	1450.1.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		employer = 11
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+13 = {
+	name = "Dagmaer"
+	dynasty = 4 # Sulack
+	culture = illuskan
+	faith = illuski
+	trait = creature_human
+	1448.1.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		employer = 11
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+14 = {
+	name = "Throa"
+	dynasty = 5 # Taerl
+	female = yes
+	culture = illuskan
+	faith = illuski
+	trait = creature_human
+	1451.1.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		employer = 11
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+15 = {
+	name = "Hartouchen"
+	dynasty = 3 # Rethnor
+	culture = illuskan
+	faith = illuski
+	trait = creature_human
+	1450.1.1 = {
+		birth = yes
+	}
+	1480.1.1 = {
+		employer = 11
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+16 = {
+	name = "Arklem"
+	dynasty = 7 # Greeth
+	culture = illuskan
+	faith = illuski
+	diplomacy = 6
+	martial = 5
+	stewardship = 4
+	intrigue = 8
+	learning = 9
+	prowess = 3
+	trait = creature_human
+	trait = master_wizard
+	trait = ambitious
+	trait = deceitful
+	trait = vengeful
+	trait = arrogant
+	trait = cynical
+	trait = callous
+	trait = mastermind_philosopher
+	disallow_random_traits = yes
+	1290.1.1 = {
+		birth = yes
+	}
+	1372.1.1 = {
+		add_trait = lich
+		add_character_flag = {
+			flag = dna_change_lich_transformation_skin
+			flag = dna_change_lich_transformation_hair
+			flag = dna_change_lich_transformation_eyes
+		}
+		immortal_age = 82
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+17 = {
+	name = "Queltar"
+	dynasty = 8 # Thaeloon
+	culture = illuskan
+	faith = illuski
+	learning = 9
+	trait = creature_human
+	trait = master_wizard
+	trait = astute_intellectual
+	trait = callous
+	1330.1.1 = {
+		birth = yes
+	}
+	1370.1.1 = {
+		death = yes
+	}
+}
+18 = {
+	name = "Cashaan"
+	dynasty = 9 # Danglor
+	culture = illuskan
+	faith = illuski
+	learning = 8
+	trait = creature_human
+	trait = master_fighter
+	trait = astute_intellectual
+	1440.1.1 = {
+		birth = yes
+		give_nickname = nick_the_red
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}

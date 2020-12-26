@@ -1,0 +1,36 @@
+1 = {
+	name = "dynn_Baram"
+	culture = illuskan
+}
+2 = {
+	name = "dynn_Kurth"
+	culture = illuskan
+}
+3 = {
+	name = "dynn_Rethnor"
+	culture = illuskan
+}
+4 = {
+	name = "dynn_Suljack"
+	culture = illuskan
+}
+5 = {
+	name = "dynn_Taerl"
+	culture = illuskan
+}
+6 = {
+	name = "dynn_Seafarer"
+	culture = highcoaster
+}
+7 = {
+	name = "dynn_Greeth"
+	culture = illuskan
+}
+8 = {
+	name = "Thaeloon"
+	culture = illuskan
+}
+9 = {
+	name = "Danglor"
+	culture = illuskan
+}

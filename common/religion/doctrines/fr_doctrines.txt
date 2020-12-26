@@ -1,0 +1,672 @@
+alignment_doctrine = {
+	group = "special"
+	
+	is_available_on_create = {
+		always = yes
+	}
+	
+	doctrine_lawful_good = {
+		visible = yes
+		parameters = {
+			is_good_faith = yes
+			is_lawful_faith = yes
+			hostility_override_doctrine_lawful_good = 0
+			hostility_override_doctrine_neutral_good = 1
+			hostility_override_doctrine_chaotic_good = 2
+			hostility_override_doctrine_lawful_neutral = 1
+			hostility_override_doctrine_neutral = 2
+			hostility_override_doctrine_unaligned = 2
+			hostility_override_doctrine_chaotic_neutral = 3
+			hostility_override_doctrine_lawful_evil = 2
+			hostility_override_doctrine_neutral_evil = 3
+			hostility_override_doctrine_chaotic_evil = 3
+		}
+		can_pick = {
+			NOT = { has_evil_god = yes }
+			NOT = { has_chaotic_god = yes }
+		}
+		character_modifier = {
+			ai_boldness = 10
+			ai_compassion = 20
+			ai_greed = -20
+			ai_honor = 30
+			ai_vengefulness = -20
+			ai_zeal = 30
+		}
+		traits = {
+			virtues = {
+				brave
+				just
+				honest
+			}
+			sins = {
+				sadistic
+				arbitrary
+				deceitful
+			}
+		}
+	}
+	
+	doctrine_neutral_good = {
+		visible = yes
+		parameters = {
+			is_good_faith = yes
+			is_neutral_faith = yes
+			hostility_override_doctrine_lawful_good = 1
+			hostility_override_doctrine_neutral_good = 0
+			hostility_override_doctrine_chaotic_good = 1
+			hostility_override_doctrine_lawful_neutral = 2
+			hostility_override_doctrine_neutral = 1
+			hostility_override_doctrine_unaligned = 1
+			hostility_override_doctrine_chaotic_neutral = 2
+			hostility_override_doctrine_lawful_evil = 3
+			hostility_override_doctrine_neutral_evil = 3
+			hostility_override_doctrine_chaotic_evil = 3
+		}
+		can_pick = {
+			NOT = { has_evil_god = yes }
+		}
+		character_modifier = {
+			ai_compassion = 30
+			ai_greed = -20
+			ai_honor = 10
+			ai_vengefulness = -20
+			ai_war_chance = -20
+		}
+		traits = {
+			virtues = {
+				calm
+				forgiving
+				compassionate
+			}
+			sins = {
+				sadistic
+				callous
+				vengeful
+				wrathful
+			}
+		}
+	}
+	
+	doctrine_chaotic_good = {
+		visible = yes
+		parameters = {
+			is_good_faith = yes
+			is_chaotic_faith = yes
+			hostility_override_doctrine_lawful_good = 2
+			hostility_override_doctrine_neutral_good = 1
+			hostility_override_doctrine_chaotic_good = 0
+			hostility_override_doctrine_lawful_neutral = 3
+			hostility_override_doctrine_neutral = 2
+			hostility_override_doctrine_unaligned = 2
+			hostility_override_doctrine_chaotic_neutral = 1
+			hostility_override_doctrine_lawful_evil = 3
+			hostility_override_doctrine_neutral_evil = 3
+			hostility_override_doctrine_chaotic_evil = 2
+		}
+		can_pick = {
+			NOT = { has_evil_god = yes }
+			NOT = { has_lawful_god = yes }
+		}
+		character_modifier = {
+			ai_compassion = 20
+			ai_greed = -20
+			ai_sociability = 10
+			ai_energy = 20
+			ai_honor = 10
+		}
+		traits = {
+			virtues = {
+				gregarious
+				brave
+				impatient
+			}
+			sins = {
+				stubborn
+				arbitrary
+				deceitful
+			}
+		}
+	}
+	
+	doctrine_lawful_neutral = {
+		visible = yes
+		parameters = {
+			is_neutral_faith = yes
+			is_lawful_faith = yes
+			hostility_override_doctrine_lawful_good = 1
+			hostility_override_doctrine_neutral_good = 2
+			hostility_override_doctrine_chaotic_good = 3
+			hostility_override_doctrine_lawful_neutral = 0
+			hostility_override_doctrine_neutral = 1
+			hostility_override_doctrine_unaligned = 1
+			hostility_override_doctrine_chaotic_neutral = 2
+			hostility_override_doctrine_lawful_evil = 1
+			hostility_override_doctrine_neutral_evil = 2
+			hostility_override_doctrine_chaotic_evil = 3
+		}
+		can_pick = {
+			NOT = { has_chaotic_god = yes }
+		}
+		character_modifier = {
+			ai_greed = -20
+			ai_honor = 40
+			ai_zeal = 30
+			ai_rationality = 30
+		}
+		traits = {
+			virtues = {
+				diligent
+				just
+				patient
+			}
+			sins = {
+				impatient
+				arbitrary
+				lazy
+			}
+		}
+	}
+	
+	doctrine_neutral = {
+		visible = yes
+		parameters = {
+			is_neutral_faith = yes
+			hostility_override_doctrine_lawful_good = 2
+			hostility_override_doctrine_neutral_good = 1
+			hostility_override_doctrine_chaotic_good = 2
+			hostility_override_doctrine_lawful_neutral = 1
+			hostility_override_doctrine_neutral = 0
+			hostility_override_doctrine_unaligned = 1
+			hostility_override_doctrine_chaotic_neutral = 1
+			hostility_override_doctrine_lawful_evil = 2
+			hostility_override_doctrine_neutral_evil = 1
+			hostility_override_doctrine_chaotic_evil = 2
+		}
+		can_pick = {
+			always = yes
+		}
+		traits = {
+			virtues = {
+				temperate
+				patient
+				stubborn
+			}
+			sins = {
+				fickle
+				impatient
+				gluttonous
+			}
+		}
+	}
+	
+	doctrine_unaligned = {
+		visible = yes
+		parameters = {
+			is_neutral_faith = yes
+			hostility_override_doctrine_lawful_good = 2
+			hostility_override_doctrine_neutral_good = 1
+			hostility_override_doctrine_chaotic_good = 2
+			hostility_override_doctrine_lawful_neutral = 1
+			hostility_override_doctrine_neutral = 1
+			hostility_override_doctrine_unaligned = 0
+			hostility_override_doctrine_chaotic_neutral = 2
+			hostility_override_doctrine_lawful_evil = 2
+			hostility_override_doctrine_neutral_evil = 1
+			hostility_override_doctrine_chaotic_evil = 2
+		}
+		can_pick = {
+			has_unaligned_god = yes
+		}
+		traits = {
+			virtues = {
+				content
+				calm
+				patient
+			}
+			sins = {
+				ambitious
+				wrathful
+				impatient
+			}
+		}
+	}
+	
+	doctrine_chaotic_neutral = {
+		visible = yes
+		parameters = {
+			is_neutral_faith = yes
+			is_chaotic_faith = yes
+			hostility_override_doctrine_lawful_good = 3
+			hostility_override_doctrine_neutral_good = 2
+			hostility_override_doctrine_chaotic_good = 1
+			hostility_override_doctrine_lawful_neutral = 2
+			hostility_override_doctrine_neutral = 1
+			hostility_override_doctrine_unaligned = 1
+			hostility_override_doctrine_chaotic_neutral = 0
+			hostility_override_doctrine_lawful_evil = 3
+			hostility_override_doctrine_neutral_evil = 2
+			hostility_override_doctrine_chaotic_evil = 1
+		}
+		can_pick = {
+			NOT = { has_lawful_god = yes }
+		}
+		character_modifier = {
+			ai_boldness = 20
+			ai_sociability = 10
+			ai_energy = 40
+			ai_honor = -10
+			ai_rationality = -15
+			ai_war_cooldown = -10
+		}
+		traits = {
+			virtues = {
+				ambitious
+				fickle
+				impatient
+			}
+			sins = {
+				content
+				stubborn
+				patient
+			}
+		}
+	}
+	
+	doctrine_lawful_evil = {
+		visible = yes
+		parameters = {
+			is_evil_faith = yes
+			is_lawful_faith = yes
+			hostility_override_doctrine_lawful_good = 2
+			hostility_override_doctrine_neutral_good = 3
+			hostility_override_doctrine_chaotic_good = 3
+			hostility_override_doctrine_lawful_neutral = 1
+			hostility_override_doctrine_neutral = 2
+			hostility_override_doctrine_unaligned = 2
+			hostility_override_doctrine_chaotic_neutral = 3
+			hostility_override_doctrine_lawful_evil = 0
+			hostility_override_doctrine_neutral_evil = 1
+			hostility_override_doctrine_chaotic_evil = 2
+		}
+		can_pick = {
+			NOT = { has_good_god = yes }
+			NOT = { has_chaotic_god = yes }
+		}
+		character_modifier = {
+			ai_boldness = 20
+			ai_compassion = -20
+			ai_greed = 20
+			ai_honor = 20
+			ai_vengefulness = 30
+			ai_zeal = 30
+			ai_war_chance = 20
+			ai_war_cooldown = -20
+		}
+		traits = {
+			virtues = {
+				callous
+				just
+				arrogant
+			}
+			sins = {
+				compassionate
+				arbitrary
+				humble
+			}
+		}
+	}
+	
+	doctrine_neutral_evil = {
+		visible = yes
+		parameters = {
+			is_evil_faith = yes
+			is_neutral_faith = yes
+			hostility_override_doctrine_lawful_good = 3
+			hostility_override_doctrine_neutral_good = 2
+			hostility_override_doctrine_chaotic_good = 3
+			hostility_override_doctrine_lawful_neutral = 2
+			hostility_override_doctrine_neutral = 1
+			hostility_override_doctrine_unaligned = 1
+			hostility_override_doctrine_chaotic_neutral = 2
+			hostility_override_doctrine_lawful_evil = 1
+			hostility_override_doctrine_neutral_evil = 0
+			hostility_override_doctrine_chaotic_evil = 1
+		}
+		can_pick = {
+			NOT = { has_good_god = yes }
+		}
+		character_modifier = {
+			ai_boldness = 10
+			ai_compassion = -30
+			ai_greed = 40
+			ai_vengefulness = 30
+			ai_rationality = -10
+			ai_war_chance = 20
+			ai_war_cooldown = -10
+		}
+		traits = {
+			virtues = {
+				wrathful
+				greedy
+				vengeful
+			}
+			sins = {
+				forgiving
+				generous
+				calm
+			}
+		}
+	}
+	
+	doctrine_chaotic_evil = {
+		visible = yes
+		parameters = {
+			is_evil_faith = yes
+			is_chaotic_faith = yes
+			hostility_override_doctrine_lawful_good = 3
+			hostility_override_doctrine_neutral_good = 3
+			hostility_override_doctrine_chaotic_good = 2
+			hostility_override_doctrine_lawful_neutral = 3
+			hostility_override_doctrine_neutral = 2
+			hostility_override_doctrine_unaligned = 2
+			hostility_override_doctrine_chaotic_neutral = 1
+			hostility_override_doctrine_lawful_evil = 2
+			hostility_override_doctrine_neutral_evil = 1
+			hostility_override_doctrine_chaotic_evil = 0
+		}
+		can_pick = {
+			NOT = { has_good_god = yes }
+			NOT = { has_lawful_god = yes }
+		}
+		character_modifier = {
+			ai_boldness = 20
+			ai_compassion = -30
+			ai_greed = 20
+			ai_honor = -40
+			ai_vengefulness = 30
+			ai_energy = 20
+			ai_rationality = -30
+			ai_war_chance = 35
+			ai_war_cooldown = -20
+		}
+		traits = {
+			virtues = {
+				sadistic
+				wrathful
+				deceitful
+			}
+			sins = {
+				compassionate
+				calm
+				honest
+			}
+		}
+	}
+}
+
+arcane_doctrine = {
+	group = "special"
+	
+	is_available_on_create = {
+		always = yes
+	}
+	
+	doctrine_arcane_allowed = {
+		parameters = {
+			arcane_legal = yes
+		}
+		can_pick = {
+			always = yes
+		}
+	}
+	
+	doctrine_arcane_restricted = {
+		parameters = {
+			arcane_restricted = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_mystra = yes 
+				has_god_leira = yes
+				has_god_velsharoon = yes
+				has_god_azuth = yes
+				has_god_savras = yes
+			}
+		}
+	}
+	
+	doctrine_arcane_illegal = {
+		parameters = {
+			arcane_illegal = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_mystra = yes 
+				has_god_leira = yes
+				has_god_velsharoon = yes
+				has_god_azuth = yes
+				has_god_savras = yes
+			}
+		}
+	}
+}
+
+lycanthropy_doctrine = {
+	group = "special"
+	
+	doctrine_lycan_encouraged = {
+		parameters = {
+			lycan_accepted = yes
+		}
+		can_pick = {
+			OR = {
+				has_god_malar = yes
+				has_god_the_beast = yes
+				has_god_ragarra = yes
+			}
+		}
+		#traits = {
+		#	virtues = {
+		#		
+		#	}
+		#}
+	}
+	
+	doctrine_lycan_accepted = {
+		parameters = {
+			lycan_accepted = yes
+		}
+		can_pick = {
+			always = yes
+		}
+	}
+	
+	doctrine_lycan_shunned = {
+		parameters = {
+			lycan_shunned = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_malar = yes
+				has_god_the_beast = yes
+				has_god_ragarra = yes
+				has_god_selune = yes
+			}
+		}
+	}
+	
+	doctrine_lycan_illegal = {
+		parameters = {
+			lycan_illegal = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_malar = yes
+				has_god_the_beast = yes
+				has_god_ragarra = yes
+				has_god_selune = yes
+			}
+		}
+	}
+}
+
+undead_doctrine = {
+	group = "special"
+	
+	doctrine_undead_encouraged = {
+		parameters = {
+			undead_accepted = yes
+		}
+		can_pick = {
+			OR = {
+				has_god_velsharoon = yes
+				has_god_myrkul = yes
+				has_god_jergal = yes
+				has_god_kiaransalee = yes
+				has_god_thasmudyan = yes
+				has_god_null = yes
+				has_god_raven_queen = yes
+				has_god_orcus = yes
+			}
+		}
+		#traits = {
+		#
+		#}
+	}
+	
+	doctrine_undead_accepted = {
+		parameters = {
+			undead_accepted = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_lathander = yes
+				has_god_kelemvor = yes
+				has_god_urogalan = yes
+			}
+		}
+	}
+	
+	doctrine_undead_restricted = {
+		parameters = {
+			undead_restricted = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_velsharoon = yes
+				has_god_myrkul = yes
+				has_god_jergal = yes
+				has_god_kiaransalee = yes
+				has_god_thasmudyan = yes
+				has_god_null = yes
+				has_god_raven_queen = yes
+				has_god_orcus = yes
+				has_god_lathander = yes
+				has_god_kelemvor = yes
+				has_god_urogalan = yes
+			}
+		}
+	}
+	
+	doctrine_undead_illegal = {
+		parameters = {
+			undead_illegal = yes
+		}
+		can_pick = {
+			NOR = {
+				has_god_velsharoon = yes
+				has_god_myrkul = yes
+				has_god_jergal = yes
+				has_god_kiaransalee = yes
+				has_god_thasmudyan = yes
+				has_god_null = yes
+				has_god_raven_queen = yes
+				has_god_orcus = yes
+			}
+		}
+		#traits = {
+		#
+		#}
+	}
+}
+
+blood_war_doctrine = {
+	group = "special"
+	
+	is_available_on_create = {
+		OR = {
+			has_doctrine = doctrine_infernal
+			has_doctrine = doctrine_abyssal
+		}
+	}
+	
+	doctrine_infernal = {
+		parameters = {
+			hostility_override_doctrine_abyssal = 3
+		}
+		can_pick = {
+			NOT = { has_doctrine = doctrine_abyssal }
+		}
+	}
+	
+	doctrine_abyssal = {
+		parameters = {
+			hostility_override_doctrine_infernal = 3
+		}
+		can_pick = {
+			NOT = { has_doctrine = doctrine_infernal }
+		}
+	}
+}
+
+enlightenment_doctrine = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = doctrine_enlightened
+	}
+	
+	doctrine_enlightened = {
+		visible = yes
+		parameters = {
+			hostility_override_doctrine_enlightened = 1
+		}
+		can_pick = {
+			has_doctrine = doctrine_enlightened
+		}
+	}
+	
+	doctrine_unelightened = {
+		visible = no
+		can_pick = {
+			always = no
+		}
+	}
+}
+
+pantheon_doctrine = {
+	group = "special"
+	
+	doctrine_illuski_pantheon = {
+		visible = yes
+		parameters = {
+			has_god_auril = yes
+			has_god_mielikki = yes
+			has_god_mystra = yes
+			has_god_oghma = yes
+			has_god_talos = yes
+			has_god_tempus = yes
+			has_god_umberlee = yes
+			has_god_uthgar = yes
+		}
+		can_pick = {
+			is_in_family = rf_faerunian
+			NOR = {
+				has_doctrine = doctrine_lawful_good
+				has_doctrine = doctrine_lawful_neutral
+				has_doctrine = doctrine_lawful_evil
+			}
+		}
+	}
+}

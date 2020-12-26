@@ -1,0 +1,14 @@
+k_arcane_brotherhood = {
+	color = { 75 0 130 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	landless = yes
+	capital = c_host_tower
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+	
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}

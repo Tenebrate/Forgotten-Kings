@@ -1,0 +1,671 @@
+illuskan_group = {
+	
+	graphical_cultures = {
+		german_group_coa_gfx
+		western_coa_gfx
+		western_building_gfx
+	#	western_clothing_gfx
+	#	western_unit_gfx
+	#	dde_hre_clothing_gfx
+	}
+	
+	illuskan = {
+		
+		graphical_cultures = {
+			western_clothing_gfx
+			western_unit_gfx
+			dde_hre_clothing_gfx
+		}
+		
+		color = { 0.4 0.5 0.6 }
+		
+		cadet_dynasty_names = {
+			{ "dynn_Safehands" }
+			{ "dynn_Chansyrl" }
+			{ "dynn_Jhavander" }
+			{ "dynn_Tarnlar" }
+			{ "dynn_Mhandyvver" }
+			{ "dynn_Indagol" }
+			{ "dynn_Blackbutter" }
+			{ "dynn_Steelsar" }
+			{ "dynn_Alaurun" }
+			{ "dynn_Raurym" }
+			{ "dynn_Zelnathra" }
+			{ "dynn_Flammedent" }
+			{ "dynn_Alpra" }
+			{ "dynn_Talboskh" }
+			{ "dynn_Darkgloom" }
+			{ "dynn_Kessell" }
+			{ "dynn_Snowshod" }
+			{ "dynn_Alaerth" }
+			{ "dynn_Zelhund" }
+			{ "dynn_Oyim" }
+			{ "dynn_Frostbound" }
+			{ "dynn_Shane" }
+			{ "dynn_Riveraxe" }
+			{ "dynn_Nordrak" }
+			{ "dynn_Farrag" }
+			{ "dynn_Saltsight" }
+			{ "dynn_Drabforge" }
+			{ "dynn_Ilgar" }
+			{ "dynn_Grandan" }
+			{ "dynn_Longroad" }
+			{ "dynn_Shieldcleft" }
+			{ "dynn_Shaw" }
+			{ "dynn_Langren" }
+			{ "dynn_Ramur" }
+			{ "dynn_Icebrand" }
+			{ "dynn_Firth" }
+			{ "dynn_Riverdale" }
+			{ "dynn_Robin" }
+			{ "dynn_Dalver" }
+			{ "dynn_Nightbinder" }
+			{ "dynn_Zarem" }
+			{ "dynn_Skyflower" }
+			{ "dynn_Danglor" }
+			{ "dynn_Labran" }
+			{ "dynn_Zann" }
+			{ "dynn_Cromm" }
+			{ "dynn_Foundhome" }
+			{ "dynn_Snowface" }
+			{ "dynn_Blackspear" }
+			{ "dynn_Highstaff" }
+			{ "dynn_Shepherde" }
+		}
+		
+		dynasty_names = {
+			{ "dynn_Safehands" }
+			{ "dynn_Chansyrl" }
+			{ "dynn_Jhavander" }
+			{ "dynn_Tarnlar" }
+			{ "dynn_Mhandyvver" }
+			{ "dynn_Indagol" }
+			{ "dynn_Blackbutter" }
+			{ "dynn_Steelsar" }
+			{ "dynn_Alaurun" }
+			{ "dynn_Raurym" }
+			{ "dynn_Zelnathra" }
+			{ "dynn_Flammedent" }
+			{ "dynn_Alpra" }
+			{ "dynn_Talboskh" }
+			{ "dynn_Darkgloom" }
+			{ "dynn_Kessell" }
+			{ "dynn_Snowshod" }
+			{ "dynn_Alaerth" }
+			{ "dynn_Zelhund" }
+			{ "dynn_Oyim" }
+			{ "dynn_Frostbound" }
+			{ "dynn_Shane" }
+			{ "dynn_Riveraxe" }
+			{ "dynn_Nordrak" }
+			{ "dynn_Farrag" }
+			{ "dynn_Saltsight" }
+			{ "dynn_Drabforge" }
+			{ "dynn_Ilgar" }
+			{ "dynn_Grandan" }
+			{ "dynn_Longroad" }
+			{ "dynn_Shieldcleft" }
+			{ "dynn_Shaw" }
+			{ "dynn_Langren" }
+			{ "dynn_Ramur" }
+			{ "dynn_Icebrand" }
+			{ "dynn_Firth" }
+			{ "dynn_Riverdale" }
+			{ "dynn_Robin" }
+			{ "dynn_Dalver" }
+			{ "dynn_Nightbinder" }
+			{ "dynn_Zarem" }
+			{ "dynn_Skyflower" }
+			{ "dynn_Danglor" }
+			{ "dynn_Labran" }
+			{ "dynn_Zann" }
+			{ "dynn_Cromm" }
+			{ "dynn_Foundhome" }
+			{ "dynn_Snowface" }
+			{ "dynn_Blackspear" }
+			{ "dynn_Highstaff" }
+			{ "dynn_Shepherde" }
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		male_names = {
+			Adhed Adring Aermund Agdinn Agrivar Alard Aldanon Alel Alfimr Altes Amert Ammon Amphail Andent Ander Andres Andruche Anthond Arklem Arren Arumn Aruph Asdan Ashni Audri Azemar Azur Bardi Bart Bartholomeus Bat Baylee Behrtio Berengar Bertran Bevil Bildri Blath Blazidon Bodvi Bran Briathor Caldos Cauldar Chanczlatha Chazlauth Colson Colstan Dag Daw Dene Draevyn Drashk Draven Duncan Durnan Eaced Earnund Egmul Eidik Emilo Emmer Enger Ephew Eram Ered Ferand Filiare Flammos Frath Frery Galvendo Garea Garn Gauwalt Gauwis Geire Genwy Geth Gilas Gisli Godre Goti Grancent Grayth Greidri Grig Gudbi Gwatkin Gyles Harmun Heimdi Helher Hemart Heri Herli Heward Hildebrant Hiro Hjatge Horgi Hrolf Hubie Huet Hylley Inther Iolvel Jalboun Jardwim Joel Johcris Jurmaer Keheard Kerrigan Kodd Laharin Lander Laroun Leifi Leofge Lerek Lifi Lorne Luth Malcer Malchor Maliantor Mane Maril Meloon Mesell Milot Mirt Morik Mulgor Munda Naeremos Narth Nasher Neri Nichole Nicolin Ornoth Osk Ostus Otho Parzifal Pawelin Philiam Piergeiron Praven Priam Queltar Randulaith Rannulfus Renaut Renier Renwick Rhazbos Rimi Robert Robillard Rodi Ruldarr Saebeald Samular Sanses Scramsax Serlon Shadrar Sigbeorn Sigi Silvarren Simmond Snirie Solvi Stery Stor Surrolph Taman Tamin Tantuss Tarmock Thelrey Thelry Theobaldus Therli Tholtz Thorsk Tim Tlinthar Tolgar Tondher Tosker Umfrey Urlam Urth Uth Valkebar Valken Valrik Vengaul Vigi Warder Wealdu Whorne Wulfa Wulfgar 
+		}
+		
+		female_names = {
+			Abeth Adanard Adelisa Aenad Aertrurh Aethryth Aevall Aglarra Agnes Alaestra Alauneth Allie Alyson Amafrey Ameera Amelia Amie Anarart Aradard Arag Asper Atet Audreyn Auelyna Auice Auizia Ausan Baerlatha Barne Beatrey Belia Bess Betha Bethia Bricta Brione Bronwyn Brythe Burne Bytza Cara Cardise Claramunda Cristene Cristinia Cybriana Daley Delenia Dyna Ealdis Ela Elith Elizabetha Ellyn Elwisia Elys Elza Emeny Emmony Enell Ennet Erermen Erix Erwer Ethef Evell Even Fraga Fruga Gardise Gega Gerdga Glina Gruta Guillemete Guntana Guthe Halana Haliyra Hallga Harcey Harriet Helthru Hely Heowe Herey Hermesent Hilde Hildegard Hilia Hina Holly Hone Horbja Horva Huguete Ihterlog Ildelburg Ismay Isylte Jalessa Jane Janna Jasmine Jenna Jhandlatha Katelyn Kathil Kathon Kaylessa Kethra Kyriani Laeral Laga Lardye Leera Luuidisa Magtana Maley Malia Malleta Marey Mariana Mathild Megarda Mera Meralda Mery Meryall Millicent Minga Miriald Moore Muteudse Mylisant Mylle Mynja Myrtle Naneetha Olga Ophala Peieyrie Phelia Phrowenia Qara Radisa Rainydayas Retta Rimga Rose Rudisa Rugarda Sabeatr Sabenn Saga Sairey Save Shandra Sharda Sharlasta Siga Silifrey Silpara Spyle Staga Suse Thamasin Thora Tietza Tolmara Vandra Wayte Wesav Westra Wilmetta Winifred Xamlyn Yarrett Yulhymbra Zara Zera Zomith 
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		patronym_suffix_male = "dynnpat_suf_son"
+		#patronym_suffix_female = "dynnpat_suf_son"
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		
+		ethnicities = {
+			15 = illuskan_blond
+			5 = illuskan_ginger
+			20 = illuskan_brown_hair
+			60 = illuskan_dark_hair
+		}
+		
+		mercenary_names = {
+			{ name = "mercenary_company_blades_of_the_north" }
+			{ name = "mercenary_company_orcslayers" }
+			{ name = "mercenary_company_the_free_company" }
+			{ name = "mercenary_company_frostsworn" }
+			{ name = "mercenary_company_veterans_of_the_north" }
+		}
+	}
+	
+	northlander = {
+		
+		graphical_cultures = {
+			northern_clothing_gfx
+			northern_unit_gfx
+		}
+	
+		color = { 0.1 0.6 0.6 }
+		
+		cadet_dynasty_names = {
+			{ "dynn_Haarn" }
+			{ "dynn_Rolsk" }
+			{ "dynn_Riever" }
+			{ "dynn_Viledel" }
+			{ "dynn_Dorrg" }
+			{ "dynn_Drakship" }
+			{ "dynn_Bleakcoast" }
+			{ "dynn_Stormrider" }
+			{ "dynn_Norl" }
+			{ "dynn_Rogarth" }
+			{ "dynn_Krakenborn" }
+			{ "dynn_Erlkar" }
+			{ "dynn_Aulgaard" }
+			{ "dynn_Redcloak" }
+			{ "dynn_Nordlander" }
+			{ "dynn_Halfgarling" }
+			{ "dynn_Blackstone" }
+			{ "dynn_Embuirhan" }
+			{ "dynn_Yngol" }
+			{ "dynn_Lithyl" }
+			{ "dynn_Redaxe" }
+			{ "dynn_Sten" }
+			{ "dynn_Northstorm" }
+			{ "dynn_Ironfist" }
+			{ "dynn_Stendrak" }
+			{ "dynn_Ilsingling" }
+			{ "dynn_Rukhval" }
+			{ "dynn_Rimebeard" }
+			{ "dynn_Jormun" }
+			{ "dynn_Hardrada" }
+			{ "dynn_Cruelsea" }
+			{ "dynn_Dragonbow" }
+			{ "dynn_Voldrun" }
+			{ "dynn_Tholstein" }
+			{ "dynn_Hammerstaad" }
+			{ "dynn_Seahelm" }
+			{ "dynn_Sigisson" }
+			{ "dynn_Helmudson" }
+			{ "dynn_Stormcloak" }
+			{ "dynn_Olafsson" }
+			{ "dynn_Gund" }
+			{ "dynn_Ironhand" }
+			{ "dynn_Midheim" }
+			{ "dynn_Amzarr" }
+			{ "dynn_Skal" }
+			{ "dynn_Rathgar" }
+			{ "dynn_Stumarik" }
+			{ "dynn_Vikdotter" }
+			{ "dynn_Jarl" }
+		}
+		
+		dynasty_names = {
+			{ "dynn_Haarn" }
+			{ "dynn_Rolsk" }
+			{ "dynn_Riever" }
+			{ "dynn_Viledel" }
+			{ "dynn_Dorrg" }
+			{ "dynn_Drakship" }
+			{ "dynn_Bleakcoast" }
+			{ "dynn_Stormrider" }
+			{ "dynn_Norl" }
+			{ "dynn_Rogarth" }
+			{ "dynn_Krakenborn" }
+			{ "dynn_Erlkar" }
+			{ "dynn_Aulgaard" }
+			{ "dynn_Redcloak" }
+			{ "dynn_Nordlander" }
+			{ "dynn_Halfgarling" }
+			{ "dynn_Blackstone" }
+			{ "dynn_Embuirhan" }
+			{ "dynn_Yngol" }
+			{ "dynn_Lithyl" }
+			{ "dynn_Redaxe" }
+			{ "dynn_Sten" }
+			{ "dynn_Northstorm" }
+			{ "dynn_Ironfist" }
+			{ "dynn_Stendrak" }
+			{ "dynn_Ilsingling" }
+			{ "dynn_Rukhval" }
+			{ "dynn_Rimebeard" }
+			{ "dynn_Jormun" }
+			{ "dynn_Hardrada" }
+			{ "dynn_Cruelsea" }
+			{ "dynn_Dragonbow" }
+			{ "dynn_Voldrun" }
+			{ "dynn_Tholstein" }
+			{ "dynn_Hammerstaad" }
+			{ "dynn_Seahelm" }
+			{ "dynn_Sigisson" }
+			{ "dynn_Helmudson" }
+			{ "dynn_Stormcloak" }
+			{ "dynn_Olafsson" }
+			{ "dynn_Gund" }
+			{ "dynn_Ironhand" }
+			{ "dynn_Midheim" }
+			{ "dynn_Amzarr" }
+			{ "dynn_Skal" }
+			{ "dynn_Rathgar" }
+			{ "dynn_Stumarik" }
+			{ "dynn_Vikdotter" }
+			{ "dynn_Jarl" }
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		male_names = {
+			Adils Adweald Agnar Aiden Alfeid Alrik Anders Andin Aralk Arkinn Arna Arolf Asbrand Asdan Athils Aumark Aupik Avgrin Balki Bardi Baug Biorni Bjolan Bjoti Borki Breda Bromm Brondolf Dala-Koll Dolfa Eker Elbrek Ered Erek Erlend Farulf Fjolmod Frannis Frikko Frolfi Gardolf Garn Garrulos Gautrekr Geitir Gesti Gisli Glammad Godmund Gormr Grewe Grewyn Groste Grunnarch Gunnolfr Gunnor Halfgar Hallstein Hanovar Harthi Heimir Helgrim Herge Hjalmar Hjalti Hjorna Holmstein Hrodri Hrolf Hrosskell Hunboga Iged Ilmard Ingjald Ingolf Jorund Kalman Kalti Kestutis Kjoti Kolbiorn Kolskeggr Kreki Krulk Laric Liamund Marri Millos Morgred Morgur Mundi Naddad Naddod Narfa Odinn Odir Ofund Ogith Ohstald Olger Olgrave Olvir Orgis Orhar Ossul Ozur Raag Ragnvald Rault Redleg Reyrketill Ryffi Saeming Saxa Scothgar Scramsax Selger Sigmundr Sigurdur Skaga Skarf Skjold Skuli Sokka Solmi Sondi Steine Steinthor Steko Svari Svasti Tela Thelgaar Thoralfr Thordar Thorgil Thorke Thorkel Thorki Thorne Thorolf Thorsk Threlked Thriki Tranjer Truvor Ulf Ulfr Ulphron Uther Vacla Valrik Vamod Vilju Vok Wedigar Wendigar Wulfa Xander 
+		}
+		
+		female_names = {
+			Adarard Agnete Albjorg Alfig Almfrid Arnkatla Astrid Bergdis Bertila Bether Birna Bjafla Bjotta Borga Branwen Cairak Daga Dagmar Dagrun Dis Dobra Ebengard Elean Ellyn Elza Fragna Frakatl Freya Frida Fridga Frilda Frithga Frune Garda Geburga Gelinda Gerdga Gira Gisela Graga Gretta Grima Gudfra Gudra Gythe Hafthora Heidi Helene Herdis Hergatha Horfra Horga Hraga Hvorga Hyra Ildag Imhid Ingrid Ingrig Jagaerda Jara Jega Jora Kaia Kathil Kjolvor Kvera Lene Ljorgga Mada Marta Marte Mira Mjoll Moira Myrun Nada Nilde Nisla Oda Odamard Ognel Orag Orlaunn Orugg Radisa Raforta Raga Rela Rida Ridga Rithe Runga Saga Sala Sanja Sifu Siga Solve Svigga Swara Taga Thaga Thildra Thora Thorda Thordis Thorunn Thoura Thyra Tofa Urag Uvag Valgeror Vela Verka Vetla Viledel Visna Vleska Vora Ygraine Yrsag Ythag Zlava Zora 
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		
+		ethnicities = {
+			50 = northlander_blond
+			30 = northlander_ginger
+			10 = northlander_brown_hair
+			10 = northlander_dark_hair
+		}
+		
+		mercenary_names = {
+			{ name = "mercenary_company_iceblood_raiders" }
+			{ name = "mercenary_company_wavekin" }
+			{ name = "mercenary_company_sea_wolf" }
+			{ name = "mercenary_company_marauders" }
+			{ name = "mercenary_company_chosen_axes" }
+		}
+	}
+	
+	uthgardt = {
+		
+		graphical_cultures = {
+			northern_clothing_gfx
+			northern_unit_gfx
+		}
+		
+		color = { 0.6 0.8 0.9 }
+		
+		cadet_dynasty_names = {
+			{ "dynn_Voninsdottir" }
+			{ "dynn_Hungermaw" }
+			{ "dynn_Kolraavi" }
+			{ "dynn_Vashk" }
+			{ "dynn_Nightblaze" }
+			{ "dynn_Hornspear" }
+			{ "dynn_Vaarson" }
+			{ "dynn_Moonmusk" }
+			{ "dynn_Orcbane" }
+			{ "dynn_Heartwood" }
+			{ "dynn_Tenfeather" }
+			{ "dynn_Thunderer" }
+			{ "dynn_Tenstone" }
+			{ "dynn_Bonesnapper" }
+			{ "dynn_Longfang" }
+			{ "dynn_Wolf_Slayer" }
+			{ "dynn_Brontoskin" }
+			{ "dynn_Wolfkiller" }
+			{ "dynn_High_Eye" }
+			{ "dynn_Onehand" }
+			{ "dynn_Blackmane" }
+			{ "dynn_Grunwald" }
+			{ "dynn_Wanderer" }
+			{ "dynn_Greenteeth" }
+			{ "dynn_Talistars" }
+			{ "dynn_Swiftwings" }
+			{ "dynn_Stormgatherer" }
+			{ "dynn_Garinen" }
+			{ "dynn_Seventoes" }
+			{ "dynn_Heartflow" }
+			{ "dynn_Longtooth" }
+			{ "dynn_Ghostheart" }
+			{ "dynn_Long_Throw" }
+			{ "dynn_Tigris" }
+			{ "dynn_Eaglewing" }
+			{ "dynn_Bloodaxe" }
+			{ "dynn_Runeclaw" }
+			{ "dynn_Battleborn" }
+			{ "dynn_Yellowsky" }
+		}
+		
+		dynasty_names = {
+			{ "dynn_Voninsdottir" }
+			{ "dynn_Hungermaw" }
+			{ "dynn_Kolraavi" }
+			{ "dynn_Vashk" }
+			{ "dynn_Nightblaze" }
+			{ "dynn_Hornspear" }
+			{ "dynn_Vaarson" }
+			{ "dynn_Moonmusk" }
+			{ "dynn_Orcbane" }
+			{ "dynn_Heartwood" }
+			{ "dynn_Tenfeather" }
+			{ "dynn_Thunderer" }
+			{ "dynn_Tenstone" }
+			{ "dynn_Bonesnapper" }
+			{ "dynn_Longfang" }
+			{ "dynn_Wolf_Slayer" }
+			{ "dynn_Brontoskin" }
+			{ "dynn_Wolfkiller" }
+			{ "dynn_High_Eye" }
+			{ "dynn_Onehand" }
+			{ "dynn_Blackmane" }
+			{ "dynn_Grunwald" }
+			{ "dynn_Wanderer" }
+			{ "dynn_Greenteeth" }
+			{ "dynn_Talistars" }
+			{ "dynn_Swiftwings" }
+			{ "dynn_Stormgatherer" }
+			{ "dynn_Garinen" }
+			{ "dynn_Seventoes" }
+			{ "dynn_Heartflow" }
+			{ "dynn_Longtooth" }
+			{ "dynn_Ghostheart" }
+			{ "dynn_Long_Throw" }
+			{ "dynn_Tigris" }
+			{ "dynn_Eaglewing" }
+			{ "dynn_Bloodaxe" }
+			{ "dynn_Runeclaw" }
+			{ "dynn_Battleborn" }
+			{ "dynn_Yellowsky" }
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		male_names = {
+			Adalfus Adalwulf Adalwyn Adamar Adund Aedelthrang Aegald Aegmar Aegul Aelwar Aenfric Aethert Aewar Ailgith Ain'Man Ainar Akar Alaric Alavar Aldfric Aldrelm Alfarin Algan Alir Alogdus Alrik Andar Ander Angaar Aosin Aralf Arcod Arcoth Arell Arnzan Artlin Arvar Asorn Ather Baardi Baldu Balward Beadu Bealda Behren Beorg Beorne Beornegar Beorunna Beothgin Berchtwald Berkthgar Bjami Blafar Blath Blofnar Bogohardt Boorvald Bor Bortor Bragin'Thar Bran Brotag Calar Chungred Clovis Conar Cone Cronvar Cuthar Cutheard Daelan Dere Dremir Dunwar Durog Eadin Eadwund Ealcred Ealded Ealdhed Ealhed Eanbard Egwulf Eheard Elrem Eodid Eordwic Erbor Ered Ernuth Feni Feola Flezar Flozar Foram Frath Frica Fula Gandolf Gardolf Gauke Geato Geber Geheard Gelli Genge Genher Georne Geth Giinvald Gilsi Grandthur Grumir Gryhark Gundar Gunvald Hagar Halragg Halric Hardar Haro Harthulk Hask Heafstaag Heafstagg Helbert Helhar Helmaer Helman Hengar Heri Hidius Higan Hildi Hlutwig Hrada Hreda Hrolf Hrothulf Ibrof Irged Irstein Isarr Ithelm Janzobur Jarund Jathrin Javor Jerek Jerrod Jorn Karzov Keyl Kierkrad Kierstaad Kletheus Kor'Valdur Korold Kralgar Kristag Lander Latag Lomarch Lukaros Luth Mane Morgur Morgwan Munda Obor Onbar Ophart Orok Orulf Ostagar Otek Othart Patrevani Rancor Revjak Ridan Rikrus Ritheard Rond Saberth Sarbord Shinoras Sige Sikaos Slektor Snordard Sonas Soren Stellok Stor Sulfa Sungar Suvar Syken Syzar Tane Tanmar Tarda Targ Teini Teinki Thard Themrin Thor'Gar Thradulf Torlin Tricio Trothgar Tulrun Ucrim Ulfbert Ulfrin Urth Uther Uthfrig Uward Vaar Valric Veziar Vonin Walde Wige Wilbald Winfold Winfred Witheard Wither Woldu Wolmad Wolvig Wrugar Wulfa Wulfgar Wulmund Wulphgehar Zedar Zokan 
+		}
+		female_names = {
+			Abenna Adora Aeburg Aeda Aega Aegyth Aelith Aelthrild Aengara Aercora Aermen Aeschild Aethell Aethrynn Agava Alburg Aldeth Alken Amafrey Anflew Annar Answil Anwild Arall Arana Athurh Baldha Ballea Beorntha Betha Bilswe Bjorga Bjornhild Borthwa Brafa Breda Brega Bretha Brinna Brithnia Brithuwa Brotsa Brude Brynhildr Burcha Burgwa Burgwella Cala Cawar Colburga Cyna Dezhda Dibela Eadild Eafad Eagen Eahgynn Ealburga Ealdgith Ealga Eanfled Eanswild Edanta Eged Egyth Engen Engorn Envir Eofwynn Eren Erhild Ethraniev Euden Ewed Eygul Fara Fennor Fragna Frialeif Frigda Frigga Frilde Frindala Frinhilde Geberda Geigul Geira Gerda Geta Gifa Gilda Gorja Grida Gudal Gweshen Hauna Hedrun Helha Helheue Helthru Heronul Hiranula Hjagabi Hlast Hlora Hrytha Huna Huronal Hydia Ingerdr Irid Jorgga Kel'Mora Kethra Ketla Kriga Lead'Hora Leda Leisa Meru Milda Modthru Mor'Stara Nagda Neuska Noori Ojin Ol'Kora Oldeth Olga Ragne Reda Rega Regidis Regra Relda Ryde Saega Sandul Seriska Shala Sida Sidwe Siegra Sigra Sigurd Silifrey Sirvi Skast Solvig Spirithajj Stilda Sunna Svagdel Svelda Tanta Thedlea Thelwe Thilda Thildrga Thiva Thuna Thurru Tidua Tortga Tysis Umora Vahylde Vela Velda Venga Verka Vil'Kenna Waru Wealthua Westra Wicta Wilthilde Winfru Wisteria Wulfu Wynne Wynneger Wynnhilde Zebora Zelva 
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		patronym_suffix_male = "dynnpat_suf_son"
+		#patronym_suffix_female = "dynnpat_suf_son"
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		
+		ethnicities = {
+			20 = northlander_brown_hair
+			80 = northlander_dark_hair
+		}
+		
+		mercenary_names = {
+			{ name = "mercenary_company_chosen_warriors" }
+			{ name = "mercenary_company_warkin" }
+			{ name = "mercenary_company_axeborn" }
+			{ name = "mercenary_company_brave_ones" }
+			{ name = "mercenary_company_trollkillers" }
+		}
+	}
+	
+	reghed = {
+		
+		graphical_cultures = {
+			northern_clothing_gfx
+			northern_unit_gfx
+		}
+	
+		color = { 0.65 0.9 0.95 }
+		
+		cadet_dynasty_names = {
+			{ "dynn_Solvigsdottir" }
+			{ "dynn_Kronenstrom" }
+			{ "dynn_Elkhardt" }
+			{ "dynn_Barrundson" }
+			{ "dynn_Halraggson" }
+			{ "dynn_Arnsfirth" }
+			{ "dynn_Beorne" }
+			{ "dynn_Alghiz" }
+			{ "dynn_Alfis" }
+			{ "dynn_Reint" }
+			{ "dynn_Garduf" }
+			{ "dynn_Icehart" }
+			{ "dynn_Targus" }
+			{ "dynn_Karm" }
+			{ "dynn_Karlsson" }
+			{ "dynn_Grunvig" }
+			{ "dynn_Zolt" }
+			{ "dynn_Zharrin" }
+			{ "dynn_Olmok" }
+			{ "dynn_Reith" }
+			{ "dynn_Folgrast" }
+			{ "dynn_Vandt" }
+			{ "dynn_Morow" }
+			{ "dynn_Solveg" }
+			{ "dynn_Hafdar" }
+			{ "dynn_Ivek" }
+			{ "dynn_Songar" }
+			{ "dynn_Tson" }
+			{ "dynn_Jhunar" ]
+		}
+		
+		dynasty_names = {
+			{ "dynn_Solvigsdottir" }
+			{ "dynn_Kronenstrom" }
+			{ "dynn_Elkhardt" }
+			{ "dynn_Barrundson" }
+			{ "dynn_Halraggson" }
+			{ "dynn_Arnsfirth" }
+			{ "dynn_Beorne" }
+			{ "dynn_Alghiz" }
+			{ "dynn_Alfis" }
+			{ "dynn_Reint" }
+			{ "dynn_Garduf" }
+			{ "dynn_Icehart" }
+			{ "dynn_Targus" }
+			{ "dynn_Karm" }
+			{ "dynn_Karlsson" }
+			{ "dynn_Grunvig" }
+			{ "dynn_Zolt" }
+			{ "dynn_Zharrin" }
+			{ "dynn_Olmok" }
+			{ "dynn_Reith" }
+			{ "dynn_Folgrast" }
+			{ "dynn_Vandt" }
+			{ "dynn_Morow" }
+			{ "dynn_Solveg" }
+			{ "dynn_Hafdar" }
+			{ "dynn_Ivek" }
+			{ "dynn_Songar" }
+			{ "dynn_Tson" }
+			{ "dynn_Jhunar" ]
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		male_names = {
+			Adalfus Adalwulf Adalwyn Adamar Adund Aedelthrang Aegald Aegmar Aegul Aelwar Aenfric Aethert Aewar Ailgith Ain'Man Ainar Akar Alaric Alavar Aldfric Aldrelm Alfarin Algan Alir Alogdus Alrik Andar Ander Angaar Aosin Aralf Arcod Arcoth Arell Arnzan Artlin Arvar Asorn Ather Baardi Baldu Balward Beadu Bealda Behren Beorg Beorne Beornegar Beorunna Beothgin Berchtwald Berkthgar Bjami Blafar Blath Blofnar Bogohardt Boorvald Bor Bortor Bragin'Thar Bran Brotag Calar Chungred Clovis Conar Cone Cronvar Cuthar Cutheard Daelan Dere Dremir Dunwar Durog Eadin Eadwund Ealcred Ealded Ealdhed Ealhed Eanbard Egwulf Eheard Elrem Eodid Eordwic Erbor Ered Ernuth Feni Feola Flezar Flozar Foram Frath Frica Fula Gandolf Gardolf Gauke Geato Geber Geheard Gelli Genge Genher Georne Geth Giinvald Gilsi Grandthur Grumir Gryhark Gundar Gunvald Hagar Halragg Halric Hardar Haro Harthulk Hask Heafstaag Heafstagg Helbert Helhar Helmaer Helman Hengar Heri Hidius Higan Hildi Hlutwig Hrada Hreda Hrolf Hrothulf Ibrof Irged Irstein Isarr Ithelm Janzobur Jarund Jathrin Javor Jerek Jerrod Jorn Karzov Keyl Kierkrad Kierstaad Kletheus Kor'Valdur Korold Kralgar Kristag Lander Latag Lomarch Lukaros Luth Mane Morgur Morgwan Munda Obor Onbar Ophart Orok Orulf Ostagar Otek Othart Patrevani Rancor Revjak Ridan Rikrus Ritheard Rond Saberth Sarbord Shinoras Sige Sikaos Slektor Snordard Sonas Soren Stellok Stor Sulfa Sungar Suvar Syken Syzar Tane Tanmar Tarda Targ Teini Teinki Thard Themrin Thor'Gar Thradulf Torlin Tricio Trothgar Tulrun Ucrim Ulfbert Ulfrin Urth Uther Uthfrig Uward Vaar Valric Veziar Vonin Walde Wige Wilbald Winfold Winfred Witheard Wither Woldu Wolmad Wolvig Wrugar Wulfa Wulfgar Wulmund Wulphgehar Zedar Zokan 
+		}
+		female_names = {
+			Abenna Adora Aeburg Aeda Aega Aegyth Aelith Aelthrild Aengara Aercora Aermen Aeschild Aethell Aethrynn Agava Alburg Aldeth Alken Amafrey Anflew Annar Answil Anwild Arall Arana Athurh Baldha Ballea Beorntha Betha Bilswe Bjorga Bjornhild Borthwa Brafa Breda Brega Bretha Brinna Brithnia Brithuwa Brotsa Brude Brynhildr Burcha Burgwa Burgwella Cala Cawar Colburga Cyna Dezhda Dibela Eadild Eafad Eagen Eahgynn Ealburga Ealdgith Ealga Eanfled Eanswild Edanta Eged Egyth Engen Engorn Envir Eofwynn Eren Erhild Ethraniev Euden Ewed Eygul Fara Fennor Fragna Frialeif Frigda Frigga Frilde Frindala Frinhilde Geberda Geigul Geira Gerda Geta Gifa Gilda Gorja Grida Gudal Gweshen Hauna Hedrun Helha Helheue Helthru Heronul Hiranula Hjagabi Hlast Hlora Hrytha Huna Huronal Hydia Ingerdr Irid Jorgga Kel'Mora Kethra Ketla Kriga Lead'Hora Leda Leisa Meru Milda Modthru Mor'Stara Nagda Neuska Noori Ojin Ol'Kora Oldeth Olga Ragne Reda Rega Regidis Regra Relda Ryde Saega Sandul Seriska Shala Sida Sidwe Siegra Sigra Sigurd Silifrey Sirvi Skast Solvig Spirithajj Stilda Sunna Svagdel Svelda Tanta Thedlea Thelwe Thilda Thildrga Thiva Thuna Thurru Tidua Tortga Tysis Umora Vahylde Vela Velda Venga Verka Vil'Kenna Waru Wealthua Westra Wicta Wilthilde Winfru Wisteria Wulfu Wynne Wynneger Wynnhilde Zebora Zelva 
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		patronym_suffix_male = "dynnpat_suf_son"
+		patronym_suffix_female = "dynnpat_suf_sdaughter"
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		patronym_suffix_male = "dynnpat_suf_son"
+		patronym_suffix_female = "dynnpat_suf_sdaughter"
+		
+		ethnicities = {
+			40 = northlander_blond
+			30 = northlander_ginger
+			20 = northlander_brown_hair
+			10 = northlander_dark_hair
+		}
+		
+		mercenary_names = {
+			{ name = "mercenary_company_glacierborn" }
+			{ name = "mercenary_company_spirit_blades" }
+			{ name = "mercenary_company_frostragers" }
+			{ name = "mercenary_company_white_walkers" }
+			{ name = "mercenary_company_frozenbloods" }
+		}
+	}
+}
+
+calishite_group = {
+	
+	graphical_cultures = {
+		arabic_group_coa_gfx
+	#	mediterranean_building_gfx
+	#	mena_building_gfx
+		mena_clothing_gfx
+		mena_unit_gfx
+		dde_abbasid_clothing_gfx
+	}
+	
+	nelanthern = {
+	
+		graphical_cultures = {
+			mediterranean_building_gfx
+		}
+		
+		color = { 0.7 0.9 0.2 }
+		
+		cadet_dynasty_names = {
+			{ "dynn_Deadeye" }
+			{ "dynn_Iomic" }
+			{ "dynn_Saltrock" }
+			{ "dynn_Buck" }
+			{ "dynn_Bloodblade" }
+			{ "dynn_Duayn" }
+			{ "dynn_Yetam" }
+			{ "dynn_Wrecker" }
+			{ "dynn_Khrul" }
+			{ "dynn_Blaskul" }
+			{ "dynn_Ornshield" }
+			{ "dynn_Red_Eye" }
+			{ "dynnp_of" "dynn_Carcathen" }
+			{ "dynn_Kuurgan" }
+			{ "dynn_Ravenstar" }
+			{ "dynn_Covaanar" }
+			{ "dynn_Cowlsar" }
+			{ "dynn_Fyrson" }
+			{ "dynn_Tornsail" }
+			{ "dynn_Freeboot" }
+			{ "dynn_Bloodtide" }
+			{ "dynn_Tidestrider" }
+			{ "dynn_Fathomdeep" }
+			{ "dynn_Gullwing" }
+			{ "dynn_Tiller" }
+			{ "dynn_Saltscale" }
+		}
+		
+		dynasty_names = {
+			{ "dynn_Deadeye" }
+			{ "dynn_Iomic" }
+			{ "dynn_Saltrock" }
+			{ "dynn_Buck" }
+			{ "dynn_Bloodblade" }
+			{ "dynn_Duayn" }
+			{ "dynn_Yetam" }
+			{ "dynn_Wrecker" }
+			{ "dynn_Khrul" }
+			{ "dynn_Blaskul" }
+			{ "dynn_Ornshield" }
+			{ "dynn_Red_Eye" }
+			{ "dynnp_of" "dynn_Carcathen" }
+			{ "dynn_Kuurgan" }
+			{ "dynn_Ravenstar" }
+			{ "dynn_Covaanar" }
+			{ "dynn_Cowlsar" }
+			{ "dynn_Fyrson" }
+			{ "dynn_Tornsail" }
+			{ "dynn_Freeboot" }
+			{ "dynn_Bloodtide" }
+			{ "dynn_Tidestrider" }
+			{ "dynn_Fathomdeep" }
+			{ "dynn_Gullwing" }
+			{ "dynn_Tiller" }
+			{ "dynn_Saltscale" }
+		}
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		male_names = {
+			Abert Abibo Accello Acur Adrian Adrien Albertz Albid Albus Aldrin Aler Amrique Anders Andes Andrert Andus Anon Argin Arlew Armand Arvin Arwald Ascos Aserulf Atam Athyes Austregisel Badcock Bagelnar Baldi Baldric Bambio Bancio Barrett Bayard Benger Berter Bindo Borgo Braffin Brainning Branton Brennan Brigham Brobern Bryany Buck Byne Calbia Carson Carswell Catullo Caxton Chamas Ciprio Colke Collier Concordio Conner Craig Crosley Cusea Dannet Darvin Degore Dorn Druet Dryany Ellor Emdolphvan Ensfried Eram Erran Ethelbert Evendur Ewell Farold Fawkes Forta Franzron Fredcuin Frico Furio Fusio Gaida Gallien Garrett Gastone Gauwalt Gelin Gelor George Gervase Gildo Gilfre Gipp Gire Goodwin Gore Gorstag Gosa Gottles Graffolk Graham Grant Greg Guilielm Guimer Guisa Gunderic Guntram Gylas Gyles Gylip Gylley Haimmon Hamath Hanry Henry Hermangild Hervey Houdouyn How Hughye Huidemar Humphery Hurey Isaac Isake Isenbardus Jake Jamund Javen Jeffry Josson Konrad Kytson Lambkin Lesti Lesym Magneric Malark Manfonons Martin Matia Mauro Medvin Meson Milbank Mirio Morn Muccio Nicole Nielip Odo Olold Onfroi Otes Parker Perseo Phil Philsten Phomas Piers Prisco Pyley Queli Quentin Raffin Rainald Ralf Ralphye Rancent Randal Raollet Rawkin Raycuin Redford Reed Remont Renoldus Rewyn Reynald Ricchar Rollin Romain Ronald Rudmo Rulf Sampson Sanborn Savelad Sciolo Searle Selles Sendo Sermed Sero Shandy Sibodo Sice Stedd Stephye Sterey Symonnet Tallis Tancard Terry Thames Tristian Udo Uegin Uiuinas Urianus Vardi Vincent Warinus Wente Will Zari Aneiang Gelon Alonon Manonan Alanoneost Crian Alim Alariaio Luist Alinonoban Crete Prie Nelistono Cristo Raúlbe Montononri Joscistomi Jedilb Belalise Aquilis Cronano Neoscton Jonan Alis Crilised Mardist Albil Alisto Cristomon Juiseis Criscostof Ericos Tonezad Geril Juiluv Crarromi Alaúlino Lenonomo Anrron Geno Juitili Alono Erontos Marilist Raralvaro Tobacia Croneli Juicimeg Criqus Alvaban Juric Enanaúl Bustin Juionel Manadil Pris Cria Alistit Matonost Cros Mainonon Alvali Custo Lualisto Enonen Cuitonge Mariciona Bustonc Jonaner Cercine Jedon Silis Maday Aliance Anorionang Jofon Beront Cris Crimor Enentoner Cairak Arthaeuil Lonk Dradeel Oxall Aglor Calahan Chremy Golin Vadek Rerdes Desharik Wanev Dace Skaug Naljier Gar Perth Sanik Razfallow Khamtar Tarnheel Bloeth Bharandas Szentarr Arghain
+		}
+		
+		female_names = {
+			Abeth Adelie Adelysia Aelina Alesia Alienor Allene Allison Altha Alura Alysone Angie Aniya Anneri Arget Argeth Aria Ariana Artie Athelyna Atheth Auberee Audrey Auisia Aundildi Auriargi Ausan Aveline Avelot Azent Bela Belen Belle Benna Berengaria Bertrade Bethel Blanche Bona Brittney Camilla Carola Carolyn Cassie Chaney Clerke Collis Cornelia Cosa Costa Dale Delpha Denise Dianne Dillian Dixie Ebeta Edvige Eildilli Eindana Elean Elianora Elinora Elisa Elisea Elizabetht Ellyn Eloisa Elsie Elza Emelin Emelnie Emelot Emeloth Emetta Emilia Emmony Emylyna Erica Ermel Eryeth Erys Esine Esvele Eudora Fairy Fele Florine Fran Fronie Galiena Gelvir Geua Gracia Graciela Greta Guanor Guenevere Gunda Gundia Haine Halley Haney Harcey Hawys Helen Helewis Helewise Hellen Herleva Herleve Hone Icie Idemay Iden Irene Iris Isis Iufel Iurol Jeanette Jhessail Jimme Joan Joanne Jocea Johne Juana Julia June Justine Kamryn Karissa Katelynn Kerri Knesalt Larmond Lewe Liddie Lina Loretta Luciana Lureene Mabill Magdalen Maggie Mahaut Marana Marilyn Marioziota Matra Maudie Mawd Mawde Maycey Melisenda Mena Mera Meria Mesa Mia Milla Mina Miri Mittie Monde Monica Murienne Myra Nance Nanna Nanss Nedda Nota Nucca Nyah Octavia Ona Paula Phebe Phely Rena Reyna Richoard Ride Rochilda Rosaline Rosita Rowan Royse Ryne Rysor Sabeatr Salba Samira Sana Selley Serena Sesa Shandri Sinda Staby Suse Sybeth Taria Tecia Teffany Tessele Thea Theresia Thomassete Tillie Tillo Urrana Vanessa Velma Vena Victoria Violante Vivian Willow Yseulte Ysout Zaira Ziva Zona Eliete Lualimina Carelelí Evis Neolvan Anapopa Alina Itisa Chete Ine Chirar Elirtara Vinal Olalbin Evina Chaxi Chera Itaste Estenar Chí Mioran Mabine Alira Soris Lasarah Lalar Solari Malvin Soninan Gares Manart Chraliant Chele Yosana Elinan Mairar Eleizar Larmarad Char Manan Viasara Aliqu Cianar Caresta Elira Candal Cabiric Canand Lariai Canan Itite Elolare Evarirah Carada Elina Evalin Luveina Mintelin Ritab Eveli Lahí Feladal Iveliai Indana Elir Laxina Chainaia Vizan Viralia Sab Chaion Riarya Labiann Cananal Vinanas Elana Lananeina Eliel Saned Chide Dili Cayia Aphril Mallory Claire Galvena Ginia Valen Erliza 
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 5
+		mother_name_chance = 10
+		
+		ethnicities = {
+			10 = nelanthern
+		}
+		
+		mercenary_names = {
+			{ name = "mercenary_company_scallywags" }
+			{ name = "mercenary_company_salt_reavers" }
+			{ name = "mercenary_company_waveriders" }
+			{ name = "mercenary_company_scurvy_dogs" }
+			{ name = "mercenary_company_plunderers" }
+		}
+	}
+}

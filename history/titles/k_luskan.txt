@@ -1,0 +1,61 @@
+
+
+
+d_luskan = {
+	1310.1.1 = {
+		holder = 1 # Baram
+		change_development_level = 10
+	}
+	1350.1.1 = {
+		liege = k_arcane_brotherhood
+	}
+	1361.1.1 = {
+		holder = 9 # Taerl
+	}
+	1367.1.1 = {
+		change_development_level = 15
+	}
+	1377.1.1 = {
+		holder = 10 # Deudermont Seafarer
+		liege = 0
+	}
+	1378.1.1 = {
+		change_development_level = 10
+		holder = 0
+	}
+	1480.1.1 = {
+		liege = k_arcane_brotherhood
+		holder = 11 # Beniago Kurth
+	}
+}
+
+c_luskan = {
+	1310.1.1 = {
+		liege = d_luskan
+		holder = 1 # Baram
+		change_development_level = 15
+	}
+	1361.1.1 = {
+		holder = 9 # Taerl
+	}
+	1367.1.1 = {
+		change_development_level = 20
+	}
+	1377.1.1 = {
+		holder = 10 # Deudermont Seafarer
+	}
+	1378.1.1 = {
+		liege = 0
+		holder = 7 # Kensidan the Crow Rethnor
+		change_development_level = 15
+	}
+	1385.1.1 = {
+		holder = 0
+		change_development_level = 10
+	}
+	1480.1.1 = {
+		liege = d_luskan
+		change_development_level = 15
+		holder = 11 # Beniago Kurth
+	}
+}

@@ -1,0 +1,17 @@
+#k_luskan
+##d_luskan
+###c_luskan
+1 = { # luskan
+	culture = illuskan
+	religion = illuski
+	holding = city_holding
+}
+2 = { # whitesails harbor
+	holding = castle_holding
+}
+3 = { # dragon beach
+	holding = none
+}
+4 = { # lessail
+	holding = temple_holding
+}

@@ -1,0 +1,172 @@
+dna_change_lich_transformation_skin = {
+	usage = game
+	dna_change_lich_transformation_skin_1 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = skin_color
+				x = 9
+				y = 252
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_skin
+            }
+        }
+	}
+	dna_change_lich_transformation_skin_2 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = skin_color
+				x = 9
+				y = 251
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_skin
+            }
+        }
+	}
+	dna_change_lich_transformation_skin_3 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = skin_color
+				x = 9
+				y = 253
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_skin
+            }
+        }
+	}
+}
+
+dna_change_lich_transformation_hair = {
+	usage = game
+	dna_change_lich_transformation_hair_1 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = hair_color
+				x = 5
+				y = 255
+			}
+		}
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_hair
+            }
+        }
+	}
+	dna_change_lich_transformation_hair_2 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = hair_color
+				x = 5
+				y = 253
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_hair
+            }
+        }
+	}
+	dna_change_lich_transformation_hair_3 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = hair_color
+				x = 5
+				y = 252
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_hair
+            }
+        }
+	}
+}
+
+dna_change_lich_transformation_eyes = {
+	usage = game
+	dna_change_lich_transformation_eyes_1 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = eye_color
+				x = 2
+				y = 233
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_eyes
+            }
+        }
+	}
+	dna_change_lich_transformation_eyes_2 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = eye_color
+				x = 8
+				y = 238
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_eyes
+            }
+        }
+	}
+	dna_change_lich_transformation_eyes_3 = {
+		dna_modifiers = {
+			color = {
+				mode = replace
+				gene = eye_color
+				x = 11
+				y = 242
+			}
+		}
+		
+		weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_character_flag = dna_change_lich_transformation_eyes
+            }
+        }
+	}
+}

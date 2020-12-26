@@ -1,0 +1,164 @@
+# Faerunian religions
+
+northern_religion = {
+	family = rf_faerunian
+	
+	doctrine = faerunian_hostility_doctrine
+	
+	faiths = {
+		illuski = {
+			icon = illuski
+			graphical_faith = pagan_gfx
+			piety_icon_group = "pagan"
+			color = { 0.19 0.57 0.75 }
+		
+			#Main Group
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_theocracy_lay_clergy
+			
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_allowed
+			doctrine = doctrine_bastardry_legitimization
+			doctrine = doctrine_consanguinity_cousins
+			
+			#Crimes
+			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_kinslaying_close_kin_crime
+			
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_recruitment
+			doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+			
+			#Special
+			doctrine = doctrine_chaotic_neutral
+			doctrine = doctrine_arcane_allowed
+			doctrine = doctrine_lycan_shunned
+			doctrine = doctrine_undead_restricted
+			doctrine = doctrine_unenlightened
+			doctrine = doctrine_illuski_pantheon
+			
+			#Holy Sites
+			
+			#Tenets
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_warrior_honor
+			
+			#Holy Order
+			holy_order_names = {
+				{ name = "holy_order_guardians_of_illusk" coat_of_arms = "ho_guardians_of_illusk" }
+				{ name = "holy_order_shields_of_the_north" coat_of_arms = "ho_shields_of_the_north" }
+				{ name = "holy_order_frostborn" coat_of_arms = "ho_frostborn" }
+				{ name = "holy_order_illuskan_reavers" coat_of_arms = "ho_illuskan_reavers" }
+			}
+			
+			holy_order_maa = { huscarl } # Temp!
+			
+			#Localizations
+			localization = {
+				#High God
+				HighGodName = loc_the_gods
+				HighGodNamePossessive = loc_the_gods_possessive
+				HighGodNameSheHe = loc_they
+				HighGodHerselfHimself = loc_themselves
+				HighGodNameAlternate = loc_the_gods
+				HighGodNameAlternatePossessive = loc_the_gods_possessive
+				
+				#Creator
+				CreatorName = loc_ao
+				CreatorNamePossessive = loc_ao_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIS
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+				
+				#Health God
+				HealthGodName = loc_mielikki
+				HealthGodNamePossessive = loc_mielikki_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#Fate God
+				FateGodName = loc_mystra
+				FateGodNamePossessive = loc_mystra_possessive
+				FateGodSheHe = CHARACTER_SHEHE_SHE
+				FateGodHerHis = CHARACTER_HERHIS_HER
+				FateGodHerHim = CHARACTER_HERHIM_HER
+				
+				#Knolwdge God
+				KnowledgeGodName = loc_oghma
+				KnowledgeGodNamePossessive = loc_oghma_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#War God
+				WarGodName = loc_tempus
+				WarGodNamePossessive = loc_tempus_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#Night God
+				NightGodName = loc_auril
+				NightGodNamePossessive = loc_auril_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+				
+				#Water God
+				WaterGodName = loc_umberlee
+				WaterGodNamePossessive = loc_umberlee_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+				
+				PantheonTerm = loc_the_gods
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = { loc_auril loc_mielikki loc_mystra loc_oghma loc_talos loc_tempus loc_umberlee loc_uthgar }
+				DevilName = loc_asmodeus
+				DevilNamePossessive = loc_asmodeus_posessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HIS
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = { Asmodeus }
+				HouseOfWorship = paganism_house_of_worship
+				HouseOfWorshipPlural = paganism_house_of_worship_plural
+				ReligiousSymbol = loc_holy_symbol
+				ReligiousText = loc_words_of_the_gods
+				DevoteeMale = paganism_devotee
+				DevoteeMalePlural = paganism_devoteeplural
+				DevoteeFemale = paganism_devotee
+				DevoteeFemalePlural = paganism_devoteeplural
+				DevoteeNeuter = paganism_devotee
+				DevoteeNeuterPlural = paganism_devoteeplural
+				PriestMale = priest_male
+				PriestMalePlural = priest_male_plural
+				PriestFemale = priest_female
+				PriestFemalePlural = priest_female_plural
+				PriestNeuter = priest_neuter
+				PriestNeuterPlural = priest_neuter_plural
+				AltPriestTermPlural = priest_alternate_plural
+				BishopMale = high_priest_male
+				BishopMalePlural = high_priest_male_plural
+				BishopFemale = high_priest_female
+				BishopFemalePlural = high_priest_female_plural
+				BishopNeuter = high_priest_neuter
+				BishopNeuterPlural = high_priest_neuter_plural
+				DivineRealm = loc_the_outer_planes
+				PositiveAfterLife = loc_the_afterlife
+				NegativeAfterLife = loc_wall_of_the_faithless
+				
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+		}
+	}
+}

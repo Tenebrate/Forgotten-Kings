@@ -1,0 +1,17 @@
+k_arcane_brotherhood = {
+	1311.1.1 = {
+		holder = 16 # Arklem Greeth
+	}
+	1364.1.1 = { # For some reason, Arklem is gone for some years
+		holder = 17 # Queltar Thaeloon
+	}
+	1370.1.1 = {
+		holder = 16 # Arklem Greeth
+	}
+	1377.1.1 = {
+		holder = 0
+	}
+	1480.1.1 = {
+		holder = 18 # Cashaan Danglor
+	}
+}

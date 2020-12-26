@@ -1,0 +1,5 @@
+rf_faerunian = {
+	graphical_faith = "orthodox_gfx"
+	hostility_doctrine = faerunian_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_christian.dds
+}
