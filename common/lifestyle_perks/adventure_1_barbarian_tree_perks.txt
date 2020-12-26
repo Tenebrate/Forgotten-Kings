@@ -144,7 +144,7 @@ mighty_band_perk = {
 	parent = intimidating_presence_perk
 	
 	character_modifier = {
-		county_opinion_add = 50
+		unlock_maa = barbarian_warriors
 	}
 }
 
@@ -153,7 +153,7 @@ primal_champion_perk = {
 	lifestyle = adventure_lifestyle
 	tree = barbarian
 	position = { 1.5 5 }
-	icon = node_martial
+	icon = trait_class_master_barbarian
 	
 	parent = mighty_band_perk
 	

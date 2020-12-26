@@ -28,3 +28,20 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+innovation_barbarian_warriors = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_01
+
+	potential = {
+		OR = {
+			this = culture:uthgardt
+			this = culture:reghed
+		}
+	}
+
+	unlock_maa = barbarian_warriors
+
+	flag = global_maa
+}
