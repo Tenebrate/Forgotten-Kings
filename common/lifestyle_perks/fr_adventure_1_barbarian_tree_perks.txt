@@ -142,10 +142,6 @@ mighty_band_perk = {
 	icon = node_martial
 	
 	parent = intimidating_presence_perk
-	
-	character_modifier = {
-		unlock_maa = barbarian_warriors
-	}
 }
 
 # Primal Champion
