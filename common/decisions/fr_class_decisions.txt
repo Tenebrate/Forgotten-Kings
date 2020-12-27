@@ -1,0 +1,43 @@
+raise_barbarian_army_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+
+	desc = raise_barbarian_army_decision_desc
+	selection_tooltip = raise_barbarian_army_decision_tooltip
+
+	is_shown = {
+		OR = {
+			has_perk = mighty_band_perk
+			has_innovation = innovation_barbarian_warriors
+		}
+		primary_title.tier > tier_barony
+
+		NOT = {
+			has_character_flag = recently_raised_barbarians
+		}
+	}
+
+	cooldown = { days = 1825 }
+
+	is_valid = {
+			is_at_war = yes
+	}
+
+	cost = {
+		prestige = 500
+	}
+
+	effect = {
+		spawn_army = {
+			name = "Barbarian Warriors"
+			men_at_arms = {
+				type = heavy_infantry
+				stacks = 3
+			}
+			location = capital_province
+			war = war
+		}
+	}
+
+	ai_check_interval = 12
+
+}
