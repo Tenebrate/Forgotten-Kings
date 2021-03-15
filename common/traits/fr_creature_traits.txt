@@ -1,0 +1,876 @@
+# Humans & Half-Humans
+
+creature_human = {
+	index = 328
+	random_creation = 0
+	birth = 0
+	
+	diplomacy = 1
+	martial = 1
+}
+
+creature_half_elf = {
+	index = 329
+	random_creation = 0
+	birth = 0
+	life_expectancy = 80
+	years_of_fertility = 40
+	
+	diplomacy = 2
+}
+
+creature_half_dwarf = {
+	index = 330
+	random_creation = 0
+	birth = 0
+	life_expectancy = 30
+	years_of_fertility = 15
+	
+	health = 0.5
+	martial = 1
+	prowess = 5
+}
+
+creature_half_giant = {
+	index = 331
+	random_creation = 0
+	birth = 0
+	
+	martial = 2
+	prowess = 10
+	health = 0.25
+	intrigue = -2
+	diplomacy = -1
+}
+
+creature_half_ogre = {
+	index = 332
+	random_creation = 0
+	birth = 0
+	
+	martial = 1
+	prowess = 10
+	learning = -1
+}
+
+creature_gith = {
+	index = 333
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	martial = 1
+	stewardship = 1
+}
+
+creature_half_orc = {
+	index = 334
+	random_creation = 0
+	birth = 0
+	
+	martial = 1
+	prowess = 5
+	diplomacy = -1
+}
+
+creature_genasi = {
+	index = 335
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	health = 0.5
+}
+
+creature_tiefling = {
+	index = 336
+	random_creation = 0
+	birth = 0
+	life_expectancy = 30
+	years_of_fertility = 15
+	
+	learning = 1
+	intrigue = 1
+}
+
+creature_aasimar = {
+	index = 337
+	random_creation = 0
+	birth = 0
+	life_expectancy = 60
+	years_of_fertility = 30
+	
+	diplomacy = 1
+	stewardship = 1
+}
+
+# Elves
+
+creature_elf = {
+	index = 338
+	random_creation = 0
+	birth = 0
+	life_expectancy = 650
+	years_of_fertility = 500
+	
+	diplomacy = 1
+	learning = 1
+}
+
+creature_drow = {
+	index = 339
+	random_creation = 0
+	birth = 0
+	life_expectancy = 650
+	years_of_fertility = 500
+	
+	martial = 1
+	intrigue = 1
+	prowess = 5
+	diplomacy = -1
+}
+
+creature_sea_elf = {
+	index = 340
+	random_creation = 0
+	birth = 0
+	life_expectancy = 650
+	years_of_fertility = 500
+	
+	stewardship = 1
+	martial = 1
+}
+
+creature_feyri = {
+	index = 341
+	random_creation = 0
+	birth = 0
+	life_expectancy = 650
+	years_of_fertility = 500
+	
+	learning = 1
+	intrigue = 2
+	prowess = 5
+	diplomacy = -1
+}
+
+creature_eladrin = {
+	index = 342
+	random_creation = 0
+	birth = 0
+	life_expectancy = 650
+	years_of_fertility = 500
+	
+	learning = 1
+	stewardship = 1
+}
+
+creature_draegloth = {
+	index = 343
+	random_creation = 0
+	birth = 0
+	life_expectancy = 650
+	years_of_fertility = 500
+	
+	diplomacy = -2
+	martial = 2
+	prowess = 10
+	intrigue = 1
+}
+
+# Fey
+
+creature_treant = {
+	index = 344
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	stewardship = 2
+	martial = 2
+	diplomacy = -2
+	learning = -2
+	prowess = 5
+	fertility = -2
+}
+
+creature_centaur = {
+	index = 345
+	random_creation = 0
+	birth = 0
+	life_expectancy = 50
+	years_of_fertility = 25
+	
+	martial = 1
+	health = 0.25
+	prowess = 5
+	diplomacy = -1
+}
+
+creature_wemic = {
+	index = 346
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	health = 2
+	martial = 1
+	prowess = 5
+	stewardship = -1
+	fertility = 1
+}
+
+creature_hag = {
+	index = 369
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	learning = 3
+	diplomacy = -2
+}
+
+# Small folk
+
+creature_dwarf = {
+	index = 347
+	random_creation = 0
+	birth = 0
+	life_expectancy = 250
+	years_of_fertility = 200
+	
+	health = 2
+	martial = 1
+	stewardship = 1
+}
+
+creature_gnome = {
+	index = 348
+	random_creation = 0
+	birth = 0
+	life_expectancy = 200
+	years_of_fertility = 150
+	
+	learning = 1
+	stewardship = 1
+	martial = -1
+}
+
+creature_halfling = {
+	index = 349
+	random_creation = 0
+	birth = 0
+	life_expectancy = 50
+	years_of_fertility = 30
+	
+	intrigue = 1
+}
+
+# Giants
+
+creature_storm_giant = {
+	index = 350
+	random_creation = 0
+	birth = 0
+	life_expectancy = 500
+	years_of_fertility = 400
+	
+	martial = 2
+	stewardship = 2
+	intrigue = -2
+	prowess = 10
+}
+
+creature_cloud_giant = {
+	index = 351
+	random_creation = 0
+	birth = 0
+	life_expectancy = 300
+	years_of_fertility = 200
+	
+	diplomacy = 2
+	intrigue = 1
+	stewardship = -2
+	prowess = 10
+}
+
+creature_stone_giant = {
+	index = 352
+	random_creation = 0
+	birth = 0
+	life_expectancy = 700
+	years_of_fertility = 600
+	
+	diplomacy = -2
+	stewardship = 1
+	learning = 1
+	prowess = 10
+}
+
+creature_frost_giant = {
+	index = 353
+	random_creation = 0
+	birth = 0
+	life_expectancy = 150
+	years_of_fertility = 75
+	
+	diplomacy = -1
+	intrigue = -2
+	martial = 2
+	prowess = 10
+}
+
+creature_fire_giant = {
+	index = 354
+	random_creation = 0
+	birth = 0
+	life_expectancy = 250
+	years_of_fertility = 150
+	
+	diplomacy = -3
+	stewardship = 1
+	martial = 2
+	prowess = 10
+}
+
+creature_hill_giant = {
+	index = 355
+	random_creation = 0
+	birth = 0
+	life_expectancy = 100
+	years_of_fertility = 50
+	
+	diplomacy = -2
+	learning = -2
+	stewardship = 1
+	martial = 1
+	health = 0.25
+	prowess = 10
+}
+
+creature_troll = {
+	index = 356
+	random_creation = 0
+	birth = 0
+	life_expectancy = 200
+	years_of_fertility = 150
+	
+	martial = 2
+	prowess = 10
+	diplomacy = -3
+	stewardship = -1
+	learning = -1
+	health = 2
+}
+
+creature_goliath = {
+	index = 357
+	random_creation = 0
+	birth = 0
+	life_expectancy = -10
+	
+	martial = 2
+	diplomacy = -1
+	intrigue = -1
+	prowess = 5
+}
+
+creature_ogre = {
+	index = 358
+	random_creation = 0
+	birth = 0
+	
+	martial = 2
+	diplomacy = -2
+	learning = -2
+	prowess = 10
+}
+
+creature_firbolg = {
+	index = 359
+	random_creation = 0
+	birth = 0
+	life_expectancy = 400
+	years_of_fertility = 300
+	
+	stewardship = 2
+	intrigue = -3
+	prowess = 10
+}
+
+creature_fomorian = {
+	index = 360
+	random_creation = 0
+	birth = 0
+	life_expectancy = 100
+	years_of_fertility = 50
+	
+	diplomacy = -3
+	intrigue = 1
+	stewardship = -1
+	martial = 2
+	prowess = 10
+}
+
+creature_voadkyn = {
+	index = 361
+	random_creation = 0
+	birth = 0
+	life_expectancy = 40
+	years_of_fertility = 20
+	
+	diplomacy = -1
+	intrigue = 2
+	martial = 1
+	prowess = 10
+}
+
+creature_desert_giant = {
+	index = 362
+	random_creation = 0
+	birth = 0
+	life_expectancy = 300
+	years_of_fertility = 200
+	
+	diplomacy = -2
+	martial = 2
+	prowess = 10
+	intrigue = -2
+}
+
+creature_jungle_giant = {
+	index = 363
+	random_creation = 0
+	birth = 0
+	life_expectancy = 100
+	years_of_fertility = 50
+	
+	intrigue = 1
+	martial = 1
+	learning = -2
+	prowess = 10
+}
+
+# Orcs, Goblinoids & Gnolls
+
+creature_ogrillon = {
+	index = 364
+	random_creation = 0
+	birth = 0
+	
+	martial = 2
+	diplomacy = -2
+	stewardship = -1
+	prowess = 5
+}
+
+creature_goblin = {
+	index = 365
+	random_creation = 0
+	birth = 0
+	life_expectancy = -30
+	
+	intrigue = 3
+	martial = 1
+	diplomacy = -2
+	learning = -1
+	prowess = -5
+}
+
+creature_hobgoblin = {
+	index = 366
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	martial = 2
+	stewardship = -2
+	diplomacy = -1
+}
+
+creature_bugbear = {
+	index = 367
+	random_creation = 0
+	birth = 0
+
+	martial = 2
+	intrigue = 2
+	diplomacy = -2
+	learning = -2
+	prowess = 5
+}
+
+creature_gnoll = {
+	index = 368
+	random_creation = 0
+	birth = 0
+	life_expectancy = -30
+	
+	martial = 2
+	diplomacy = -2
+	learning = -2
+	intrigue = 2
+	prowess = 5
+	fertility = 1
+}
+
+creature_orc = {
+	index = 370
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	martial = 2
+	diplomacy = -2
+	prowess = 5
+}
+
+creature_tanarukk = {
+	index = 371
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	martial = 2
+	diplomacy = -2
+	stewardship = -2
+	intrigue = 1
+	learning = -1
+	prowess = 5
+}
+
+creature_half_gnoll = {
+	index = 423
+	random_creation = 0
+	birth = 0
+	life_expectancy = -15
+	
+	martial = 1
+	diplomacy = -2
+	intrigue = 1
+	prowess = 5
+}
+
+# Aberrations
+
+creature_illithid = {
+	index = 372
+	random_creation = 0
+	birth = 0
+	life_expectancy = 25
+	
+	fertility = -2
+	martial = -1
+	diplomacy = -2
+	learning = 3
+	intrigue = 1
+}
+
+creature_beholder = {
+	index = 373
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	fertility = -2
+	diplomacy = -3
+	martial = 1
+	intrigue = 1
+	prowess = 5
+}
+
+# Bovine
+
+creature_minotaur = {
+	index = 374
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	martial = 2
+	learning = -1
+	diplomacy = -2
+	prowess = 10
+}
+
+creature_yikarian = {
+	index = 375
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	intrigue = 2
+	diplomacy = -2
+	martial = 1
+	prowess = 5
+}
+
+# Scalykind
+
+creature_sarrukh = {
+	index = 376
+	random_creation = 0
+	birth = 0
+	life_expectancy = 900
+	years_of_fertility = 800
+	
+	martial = 1
+	learning = 1
+	diplomacy = 1
+	intrigue = 1
+	stewardship = 1
+	prowess = 5
+}
+
+creature_pureblood = {
+	index = 377
+	random_creation = 0
+	birth = 0
+	
+	intrigue = 1
+	martial = 1
+}
+
+creature_malison = {
+	index = 378
+	random_creation = 0
+	birth = 0
+	
+	martial = 2
+	diplomacy = -1
+	prowess = 5
+}
+
+creature_abomination = {
+	index = 379
+	random_creation = 0
+	birth = 0
+	
+	martial = 2
+	diplomacy = -2
+	intrigue = 1
+	prowess = 5
+}
+
+creature_lizardfolk = {
+	index = 380
+	random_creation = 0
+	birth = 0
+	
+	martial = 1
+	learning = -1
+}
+
+creature_naga = {
+	index = 381
+	random_creation = 0
+	birth = 0
+	life_expectancy = 200
+	years_of_fertility = 100
+	
+	learning = 2
+	diplomacy = 1
+	stewardship = 1
+	prowess = 5
+}
+
+creature_saurial = {
+	index = 382
+	random_creation = 0
+	birth = 0
+	
+	martial = 2
+	prowess = 5
+	diplomacy = -1 # Have a real hard time talking in humanoid languages
+}
+
+creature_pterafolk = {
+	index = 383
+	random_creation = 0
+	birth = 0
+	
+	diplomacy = -2
+	intrigue = 1
+	martial = 1
+}
+
+# Draconic
+
+creature_dragonborn = {
+	index = 384
+	random_creation = 0
+	birth = 0
+	life_expectancy = -10
+	
+	diplomacy = 1
+	martial = 1
+	learning = -1
+	prowess = 5
+}
+
+creature_chromatic_dragon = {
+	index = 395
+	random_creation = 0
+	birth = 0
+	life_expectancy = 1100
+	years_of_fertility = 1000
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 15
+}
+
+creature_metallic_dragon = {
+	index = 395
+	random_creation = 0
+	birth = 0
+	life_expectancy = 1100
+	years_of_fertility = 1000
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 15
+}
+
+creature_gem_dragon = {
+	index = 396
+	random_creation = 0
+	birth = 0
+	life_expectancy = 1100
+	years_of_fertility = 1000
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 15
+}
+
+creature_shadow_dragon = {
+	index = 397
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 15
+}
+
+creature_kobold = {
+	index = 398
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	intrigue = 3
+	prowess = -5
+}
+
+# Birds
+
+creature_tengu = {
+	index = 399
+	random_creation = 0
+	birth = 0
+	
+	intrigue = 2
+	stewardship = -2
+	diplomacy = 1
+	prowess = -5
+}
+
+creature_aarakocra = {
+	index = 400
+	random_creation = 0
+	birth = 0
+	life_expectancy = -20
+	
+	martial = -2
+	diplomacy = 2
+	stewardship = 1
+	prowess = -5
+}
+
+# Fish
+
+creature_sahuagin = {
+	index = 401
+	random_creation = 0
+	birth = 0
+	life_expectancy = 50
+	years_of_fertility = 25
+	
+	diplomacy = -2
+	martial = 2
+	prowess = 5
+}
+
+# Outsiders
+
+creature_devil = {
+	index = 402
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	martial = 3
+	intrigue = 3
+	learning = 1
+	diplomacy = 2
+	prowess = 10
+}
+
+creature_demon = {
+	index = 403
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	martial = 3
+	intrigue = 2
+	learning = 1
+	diplomacy = -1
+	prowess = 15
+}
+
+creature_genie = {
+	index = 404
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	martial = 1
+	diplomacy = 2
+	learning = 2
+	intrigue = 2
+	stewardship = 1
+	combat_rating = 5
+}
+
+#creature_angel = {
+#	index = 405
+#	random_creation = 0
+#	birth = 0
+#	immortal = yes
+#	
+#	martial = 2
+#	stewardship = 2
+#	diplomacy = 3
+#	intrigue = -2
+#	learning = 2
+#	prowess = 10
+#}

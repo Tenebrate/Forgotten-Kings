@@ -1,0 +1,222 @@
+template_ulitharid = {
+	index = 405
+	random_creation = 0
+	birth = 0
+	life_expectancy = 125
+	
+	learning = 1
+	health = 0.5
+	prowess = 5
+}
+
+template_undead = {
+	index = 406
+	random_creation = 0
+	birth = 0
+	
+	fertility = -2
+	immortal = yes
+}
+
+template_malenti = {
+	index = 407
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	diplomacy = 3
+	intrigue = 1
+}
+
+template_greater_fiend = {
+	index = 408
+	random_creation = 0
+	birth = 0
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	prowess = 5
+}
+
+template_werewolf = {
+	index = 409
+	random_creation = 0
+	birth = 0
+	
+	diplomacy = -1
+	martial = 2
+	health = 0.5
+	prowess = 5
+}
+
+template_wererat = {
+	index = 410
+	random_creation = 0
+	birth = 0
+	
+	diplomacy = -2
+	intrigue = 2
+	health = 0.25
+}
+
+template_weretiger = {
+	index = 411
+	random_creation = 0
+	birth = 0
+	life_expectancy = -10
+	
+	diplomacy = -1
+	martial = 2
+	prowess = 5
+	intrigue = 1
+}
+
+template_vampire = {
+	index = 412
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	diplomacy = 1
+	intrigue = 2
+	fertility = -2
+}
+
+template_lich = {
+	index = 413
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	learning = 1
+	fertility = -2
+}
+
+template_archlich = {
+	index = 414
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	learning = 1
+	fertility = -2
+}
+
+template_baelnorn = {
+	index = 415
+	random_creation = 0
+	birth = 0
+	immortal = yes
+	
+	learning = 1
+	fertility = -2
+}
+
+template_half_dragon = {
+	index = 416
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	health = 0.5
+	fertility = -0.25
+	prowess = 5
+	martial = 1
+}
+
+#template_half_celestial = {
+#	index = 418
+#	random_creation = 0
+#	birth = 0
+#	life_expectancy = 20
+#	years_of_fertility = 10
+#	
+#	health = 0.5
+#	diplomacy = 1
+#}
+
+template_half_fiend = {
+	index = 417
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	health = 0.5
+	intrigue = 1
+}
+
+template_spirit_folk = {
+	index = 418
+	random_creation = 0
+	birth = 0
+	life_expectancy = 10
+	years_of_fertility = 5
+	
+	health = 0.25
+	stewardship = 1
+	martial = -1
+}
+
+template_feytouched = {
+	index = 419
+	random_creation = 0
+	birth = 0
+	life_expectancy = 20
+	years_of_fertility = 10
+	
+	health = 0.5
+	learning = 1
+}
+
+#template_half_troll = {
+#	index = 422
+#	random_creation = 0
+#	birth = 0
+#	life_expectancy = 30
+#	years_of_fertility = 15
+#	
+#	health = 1
+#	diplomacy = -1
+#	prowess = 5
+#}
+
+template_fire_genasi = {
+	index = 420
+	random_creation = 0
+	birth = 0
+	
+	martial = 1
+	learning = -1
+}
+
+template_air_genasi = {
+	index = 421
+	random_creation = 0
+	birth = 0
+	
+	diplomacy = 1
+	stewardship = -1
+}
+
+template_water_genasi = {
+	index = 422
+	random_creation = 0
+	birth = 0
+	
+	diplomacy = -1
+	learning = 1
+}
+
+template_earth_genasi = {
+	index = 423
+	random_creation = 0
+	birth = 0
+	
+	stewardship = 1
+	intrigue = -1
+}

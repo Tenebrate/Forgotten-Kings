@@ -34,3 +34,11 @@
 	name = "Danglor"
 	culture = illuskan
 }
+10 = {
+	name = "Tenfeather"
+	culture = uthgardt
+}
+11 = {
+	name = "Voninsdottir"
+	culture = uthgardt
+}

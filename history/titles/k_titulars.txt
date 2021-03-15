@@ -1,5 +1,10 @@
 k_arcane_brotherhood = {
 	1311.1.1 = {
+		succession_laws = {
+			mage_elective_succession_law
+			equal_law
+		}
+		government = magocracy_government
 		holder = 16 # Arklem Greeth
 	}
 	1364.1.1 = { # For some reason, Arklem is gone for some years
@@ -13,5 +18,22 @@ k_arcane_brotherhood = {
 	}
 	1480.1.1 = {
 		holder = 18 # Cashaan Danglor
+	}
+}
+
+d_black_raven = {
+	1354.1.1 = {
+		succession_laws = {
+			eldership_succession_law
+			equal_law
+		}
+		government = tribal_government
+		holder = 19 # Ostagar Tenfeather
+	}
+	1398.11.2 = {
+		holder = 0
+	}
+	1465.1.1 = {
+		holder = 23220 # Ojin Voninsdottir
 	}
 }

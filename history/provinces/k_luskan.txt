@@ -15,3 +15,33 @@
 4 = { # lessail
 	holding = temple_holding
 }
+###c_host_tower
+5 = { # host tower
+	culture = illuskan
+	religion = illuski
+	holding = tower_holding
+}
+###c_blackford
+6 = { # blackford
+	culture = uthgardt
+	religion = uthgar
+	holding = tribal_hodling
+}
+7 = { # icemelt
+	holding = none
+}
+8 = { # scarvale
+	holding = none
+}
+###c_lyntara
+9 = { # port wynn
+	culture = illuskan
+	religion = illuski
+	holding = castle_holding
+}
+10 = { # valarholm
+	holding = none
+}
+11 = { # eskolmark
+	holding = none
+}
