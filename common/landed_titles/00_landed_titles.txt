@@ -1979,387 +1979,6 @@ e_northern_realms = {
 		}
 	}
 	
-	k_delimbiyr = {
-		color = { 201 158 88 }
-		color2 = { 255 255 255 }
-		
-		capital = c_llorkh
-		
-		cultural_names = {
-			shield_dwarf = cn_high_ammarindar
-			gold_dwarf = cn_high_ammarindar
-			chultan_dwarf = cn_high_ammarindar
-			desert_dwarf = cn_high_ammarindar
-			arctic_dwarf = cn_high_ammarindar
-			duergar = cn_high_ammarindar
-			derro = cn_high_ammarindar
-			wild_dwarf = cn_high_ammarindar
-		}
-		
-		d_greyvale = {
-			color = { 221 138 98 }
-			color2 = { 255 255 255 }
-			
-			capital = c_llorkh
-			
-			c_llorkh = {
-				color = { 231 128 103 }
-				color2 = { 255 255 255 }
-				
-				b_llorkh = {
-					province = 173
-					
-					color = { 231 128 103 }
-					color2 = { 255 255 255 }
-				}
-				b_iron_hill = {
-					province = 174
-					
-					color = { 199 51 16 }
-					color2 = { 255 255 255 }
-				}
-				b_grondarl = {
-					province = 175
-					
-					color = { 121 51 34 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_loagrann = {
-				color = { 213 176 146 }
-				color2 = { 255 255 255 }
-				
-				b_deadstone_cleft = {
-					province = 176
-					
-					color = { 213 176 146 }
-					color2 = { 255 255 255 }
-				}
-				b_ortis = {
-					province = 177
-					
-					color = { 255 203 160 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_loudwater = {
-				color = { 191 137 49 }
-				color2 = { 255 255 255 }
-				
-				cultural_names = {
-					shield_dwarf = cn_dahaurock
-					gold_dwarf = cn_dahaurock
-					chultan_dwarf = cn_dahaurock
-					desert_dwarf = cn_dahaurock
-					arctic_dwarf = cn_dahaurock
-					duergar = cn_dahaurock
-					derro = cn_dahaurock
-					wild_dwarf = cn_dahaurock
-					
-					sun_elf = cn_velti_enorethal
-					moon_elf = cn_velti_enorethal
-					wood_elf = cn_velti_enorethal
-					green_elf = cn_velti_enorethal
-					poscadar = cn_velti_enorethal
-					maraloi = cn_velti_enorethal
-					sea_elf = cn_velti_enorethal
-					eladrin = cn_velti_enorethal
-					crinti = cn_velti_enorethal
-					feyri = cn_velti_enorethal
-					drow = cn_velti_enorethal
-				}
-				
-				b_loudwater = {
-					province = 178
-					
-					cultural_names = {
-						shield_dwarf = cn_dahaurock
-						gold_dwarf = cn_dahaurock
-						chultan_dwarf = cn_dahaurock
-						desert_dwarf = cn_dahaurock
-						arctic_dwarf = cn_dahaurock
-						duergar = cn_dahaurock
-						derro = cn_dahaurock
-						wild_dwarf = cn_dahaurock
-						
-						sun_elf = cn_velti_enorethal
-						moon_elf = cn_velti_enorethal
-						wood_elf = cn_velti_enorethal
-						green_elf = cn_velti_enorethal
-						poscadar = cn_velti_enorethal
-						maraloi = cn_velti_enorethal
-						sea_elf = cn_velti_enorethal
-						eladrin = cn_velti_enorethal
-						crinti = cn_velti_enorethal
-						feyri = cn_velti_enorethal
-						drow = cn_velti_enorethal
-					}
-					
-					color = { 191 137 49 }
-					color2 = { 255 255 255 }
-				}
-				b_orlbar = {
-					province = 179
-					
-					color = { 151 106 32 }
-					color2 = { 255 255 255 }
-				}
-				b_littlewood = {
-					province = 180
-					
-					color = { 137 116 83 }
-					color2 = { 255 255 255 255 }
-				}
-				b_greyflow_gate = {
-					province = 181
-					
-					color = { 143 192 69 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_southwood = {
-				color = { 191 188 176 }
-				color2 = { 255 255 255 }
-				
-				b_highluthholt = {
-					province = 182
-					
-					color = { 191 188 176 }
-					color2 = { 255 255 255 }
-				}
-				b_courtoun = {
-					province = 183
-					
-					color = { 112 105 79 }
-					color2 = { 255 255 255 }
-				}
-				b_lonely_oak = {
-					province = 184
-					
-					color = { 180 196 108 }
-					color2 = { 255 255 255 }n
-				}
-			}
-		}
-		
-		d_high_ammarindar = {
-			color = { 184 204 47 }
-			color2 = { 255 255 255 }
-			
-			capital = c_fallen_lands
-			
-			c_fallen_lands = {
-				color = { 194 194 52 }
-				color2 = { 255 255 255 }
-				
-				b_stormkeep = {
-					province = 185
-					
-					color = { 194 194 52 }
-					color2 = { 255 255 255 }
-				}
-				b_dry_hills = {
-					province = 186
-					
-					color = { 162 162 0 }
-					color2 = { 255 255 255 }
-				}
-				b_ustark = {
-					province = 187
-					
-					color = { 203 172 42 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_dawn_pass = {
-				color = { 30 155 158 }
-				color2 = { 255 255 255 }
-				
-				b_parnast = {
-					province = 188
-					
-					color = { 30 155 158 }
-					color2 = { 255 255 255 }
-				}
-				b_dawn_pass = {
-					province = 189
-					
-					color = { 87 27 198 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_dekanter = {
-				color = { 170 49 106 }
-				color2 = { 255 255 255 }
-				
-				b_dekanter = {
-					province = 190
-					
-					color = { 170 49 106 }
-					color2 = { 170 49 106 }
-				}
-				b_dethdor = {
-					province = 191
-					
-					color = { 142 89 114 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_weathercote_wood = {
-				color = { 200 197 134 }
-				color2 = { 255 255 255 }
-				
-				b_veska = {
-					province = 192
-					
-					color = { 200 197 134 }
-					color2 = { 255 255 255 }
-				}
-				b_tamm = {
-					province = 193
-					
-					color = { 114 110 23 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-		d_delimbiyr_vale = {
-			color = { 53 105 166 }
-			color2 = { 255 255 255 }
-			
-			capital = c_secomber
-			
-			cultural_names = {
-				lightfoot = cn_imristar
-				strongheart = cn_imristar
-				ghostwise = cn_imristar
-			}
-			
-			c_secomber = {
-				color = { 43 115 161 }
-				color2 = { 255 255 255 }
-				
-				cultural_names = {
-					draeven = cn_hastarl
-					
-					sun_elf = cn_athwater_vale
-					moon_elf = cn_athwater_vale
-					wood_elf = cn_athwater_vale
-					green_elf = cn_athwater_vale
-					poscadar = cn_athwater_vale
-					maraloi = cn_athwater_vale
-					sea_elf = cn_athwater_vale
-					eladrin = cn_athwater_vale
-					crinti = cn_athwater_vale
-					feyri = cn_athwater_vale
-					drow = cn_athwater_vale
-				}
-				
-				b_undarls_tower = {
-					province = 194
-					
-					color = { 43 115 161 }
-					color2 = { 255 255 255 }
-				}
-				b_secomber = {
-					province = 195
-					
-					color = { 102 154 187 }
-					color2 = { 255 255 255 }
-				}
-				b_cliffbarrows = {
-					province = 196
-					
-					color = { 50 48 218 }
-					color2 = { 255 255 255 }
-				}
-				b_floodmeet = {
-					province = 197
-					
-					color = { 218 48 211 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_julkoun = {
-				color = { 143 158 185 }
-				color2 = { 255 255 255 }
-				
-				cultural_names = {
-					shield_dwarf = cn_illefarn
-					gold_dwarf = cn_illefarn
-					chultan_dwarf = cn_illefarn
-					desert_dwarf = cn_illefarn
-					arctic_dwarf = cn_illefarn
-					duergar = cn_illefarn
-					derro = cn_illefarn
-					wild_dwarf = cn_illefarn
-					
-					tethyrian = cn_shining
-					
-					sun_elf = cn_laughing_hollow
-					moon_elf = cn_laughing_hollow
-					wood_elf = cn_laughing_hollow
-					green_elf = cn_laughing_hollow
-					poscadar = cn_laughing_hollow
-					maraloi = cn_laughing_hollow
-					sea_elf = cn_laughing_hollow
-					eladrin = cn_laughing_hollow
-				}
-				
-				b_athgard = {
-					province = 198
-					
-					color = { 143 158 185 }
-					color2 = { 255 255 255 }
-				}
-				b_julkoun = {
-					province = 199
-					
-					color = { 5 40 105 }
-					color2 = { 255 255 255 }
-				}
-				b_delanthar = {
-					province = 200
-					
-					color = { 15 91 231 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_zelbross = {
-				color = { 131 146 200 }
-				color2 = { 255 255 255 }
-				
-				b_zelbross = {
-					province = 201
-					
-					color = { 131 146 200 }
-					color2 = { 255 255 255 }
-				}
-				b_urmish = {
-					province = 202
-					
-					color = { 15 43 144 }
-					color2 = { 255 255 255 }
-				}
-				b_gallywal = {
-					province = 203
-					
-					color = { 15 77 144 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-	}
-	
 	k_dessarin = {
 		color = { 101 197 152 }
 		color2 = { 255 255 255 }
@@ -3340,4 +2959,387 @@ e_northern_realms = {
 			}
 		}
 	}
+
+	k_delimbiyr = {
+		color = { 201 158 88 }
+		color2 = { 255 255 255 }
+		
+		capital = c_llorkh
+		
+		cultural_names = {
+			shield_dwarf = cn_high_ammarindar
+			gold_dwarf = cn_high_ammarindar
+			chultan_dwarf = cn_high_ammarindar
+			desert_dwarf = cn_high_ammarindar
+			arctic_dwarf = cn_high_ammarindar
+			duergar = cn_high_ammarindar
+			derro = cn_high_ammarindar
+			wild_dwarf = cn_high_ammarindar
+		}
+
+		d_delimbiyr_vale = {
+			color = { 53 105 166 }
+			color2 = { 255 255 255 }
+			
+			capital = c_secomber
+			
+			cultural_names = {
+				lightfoot = cn_imristar
+				strongheart = cn_imristar
+				ghostwise = cn_imristar
+			}
+			
+			c_secomber = {
+				color = { 43 115 161 }
+				color2 = { 255 255 255 }
+				
+				cultural_names = {
+					draeven = cn_hastarl
+					
+					sun_elf = cn_athwater_vale
+					moon_elf = cn_athwater_vale
+					wood_elf = cn_athwater_vale
+					green_elf = cn_athwater_vale
+					poscadar = cn_athwater_vale
+					maraloi = cn_athwater_vale
+					sea_elf = cn_athwater_vale
+					eladrin = cn_athwater_vale
+					crinti = cn_athwater_vale
+					feyri = cn_athwater_vale
+					drow = cn_athwater_vale
+				}
+				
+				b_undarls_tower = {
+					province = 194
+					
+					color = { 43 115 161 }
+					color2 = { 255 255 255 }
+				}
+				b_secomber = {
+					province = 195
+					
+					color = { 102 154 187 }
+					color2 = { 255 255 255 }
+				}
+				b_cliffbarrows = {
+					province = 196
+					
+					color = { 50 48 218 }
+					color2 = { 255 255 255 }
+				}
+				b_floodmeet = {
+					province = 197
+					
+					color = { 218 48 211 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_julkoun = {
+				color = { 143 158 185 }
+				color2 = { 255 255 255 }
+				
+				cultural_names = {
+					shield_dwarf = cn_illefarn
+					gold_dwarf = cn_illefarn
+					chultan_dwarf = cn_illefarn
+					desert_dwarf = cn_illefarn
+					arctic_dwarf = cn_illefarn
+					duergar = cn_illefarn
+					derro = cn_illefarn
+					wild_dwarf = cn_illefarn
+					
+					tethyrian = cn_shining
+					
+					sun_elf = cn_laughing_hollow
+					moon_elf = cn_laughing_hollow
+					wood_elf = cn_laughing_hollow
+					green_elf = cn_laughing_hollow
+					poscadar = cn_laughing_hollow
+					maraloi = cn_laughing_hollow
+					sea_elf = cn_laughing_hollow
+					eladrin = cn_laughing_hollow
+				}
+				
+				b_athgard = {
+					province = 198
+					
+					color = { 143 158 185 }
+					color2 = { 255 255 255 }
+				}
+				b_julkoun = {
+					province = 199
+					
+					color = { 5 40 105 }
+					color2 = { 255 255 255 }
+				}
+				b_delanthar = {
+					province = 200
+					
+					color = { 15 91 231 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_zelbross = {
+				color = { 131 146 200 }
+				color2 = { 255 255 255 }
+				
+				b_zelbross = {
+					province = 201
+					
+					color = { 131 146 200 }
+					color2 = { 255 255 255 }
+				}
+				b_urmish = {
+					province = 202
+					
+					color = { 15 43 144 }
+					color2 = { 255 255 255 }
+				}
+				b_gallywal = {
+					province = 203
+					
+					color = { 15 77 144 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_high_ammarindar = {
+			color = { 184 204 47 }
+			color2 = { 255 255 255 }
+			
+			capital = c_fallen_lands
+			
+			c_fallen_lands = {
+				color = { 194 194 52 }
+				color2 = { 255 255 255 }
+				
+				b_stormkeep = {
+					province = 185
+					
+					color = { 194 194 52 }
+					color2 = { 255 255 255 }
+				}
+				b_dry_hills = {
+					province = 186
+					
+					color = { 162 162 0 }
+					color2 = { 255 255 255 }
+				}
+				b_ustark = {
+					province = 187
+					
+					color = { 203 172 42 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_dawn_pass = {
+				color = { 30 155 158 }
+				color2 = { 255 255 255 }
+				
+				b_parnast = {
+					province = 188
+					
+					color = { 30 155 158 }
+					color2 = { 255 255 255 }
+				}
+				b_dawn_pass = {
+					province = 189
+					
+					color = { 87 27 198 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_dekanter = {
+				color = { 170 49 106 }
+				color2 = { 255 255 255 }
+				
+				b_dekanter = {
+					province = 190
+					
+					color = { 170 49 106 }
+					color2 = { 170 49 106 }
+				}
+				b_dethdor = {
+					province = 191
+					
+					color = { 142 89 114 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_weathercote_wood = {
+				color = { 200 197 134 }
+				color2 = { 255 255 255 }
+				
+				b_veska = {
+					province = 192
+					
+					color = { 200 197 134 }
+					color2 = { 255 255 255 }
+				}
+				b_tamm = {
+					province = 193
+					
+					color = { 114 110 23 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_greyvale = {
+			color = { 221 138 98 }
+			color2 = { 255 255 255 }
+			
+			capital = c_llorkh
+			
+			c_llorkh = {
+				color = { 231 128 103 }
+				color2 = { 255 255 255 }
+				
+				b_llorkh = {
+					province = 173
+					
+					color = { 231 128 103 }
+					color2 = { 255 255 255 }
+				}
+				b_iron_hill = {
+					province = 174
+					
+					color = { 199 51 16 }
+					color2 = { 255 255 255 }
+				}
+				b_grondarl = {
+					province = 175
+					
+					color = { 121 51 34 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_loagrann = {
+				color = { 213 176 146 }
+				color2 = { 255 255 255 }
+				
+				b_deadstone_cleft = {
+					province = 176
+					
+					color = { 213 176 146 }
+					color2 = { 255 255 255 }
+				}
+				b_ortis = {
+					province = 177
+					
+					color = { 255 203 160 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_loudwater = {
+				color = { 191 137 49 }
+				color2 = { 255 255 255 }
+				
+				cultural_names = {
+					shield_dwarf = cn_dahaurock
+					gold_dwarf = cn_dahaurock
+					chultan_dwarf = cn_dahaurock
+					desert_dwarf = cn_dahaurock
+					arctic_dwarf = cn_dahaurock
+					duergar = cn_dahaurock
+					derro = cn_dahaurock
+					wild_dwarf = cn_dahaurock
+					
+					sun_elf = cn_velti_enorethal
+					moon_elf = cn_velti_enorethal
+					wood_elf = cn_velti_enorethal
+					green_elf = cn_velti_enorethal
+					poscadar = cn_velti_enorethal
+					maraloi = cn_velti_enorethal
+					sea_elf = cn_velti_enorethal
+					eladrin = cn_velti_enorethal
+					crinti = cn_velti_enorethal
+					feyri = cn_velti_enorethal
+					drow = cn_velti_enorethal
+				}
+				
+				b_loudwater = {
+					province = 178
+					
+					cultural_names = {
+						shield_dwarf = cn_dahaurock
+						gold_dwarf = cn_dahaurock
+						chultan_dwarf = cn_dahaurock
+						desert_dwarf = cn_dahaurock
+						arctic_dwarf = cn_dahaurock
+						duergar = cn_dahaurock
+						derro = cn_dahaurock
+						wild_dwarf = cn_dahaurock
+						
+						sun_elf = cn_velti_enorethal
+						moon_elf = cn_velti_enorethal
+						wood_elf = cn_velti_enorethal
+						green_elf = cn_velti_enorethal
+						poscadar = cn_velti_enorethal
+						maraloi = cn_velti_enorethal
+						sea_elf = cn_velti_enorethal
+						eladrin = cn_velti_enorethal
+						crinti = cn_velti_enorethal
+						feyri = cn_velti_enorethal
+						drow = cn_velti_enorethal
+					}
+					
+					color = { 191 137 49 }
+					color2 = { 255 255 255 }
+				}
+				b_orlbar = {
+					province = 179
+					
+					color = { 151 106 32 }
+					color2 = { 255 255 255 }
+				}
+				b_littlewood = {
+					province = 180
+					
+					color = { 137 116 83 }
+					color2 = { 255 255 255 255 }
+				}
+				b_greyflow_gate = {
+					province = 181
+					
+					color = { 143 192 69 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_southwood = {
+				color = { 191 188 176 }
+				color2 = { 255 255 255 }
+				
+				b_highluthholt = {
+					province = 182
+					
+					color = { 191 188 176 }
+					color2 = { 255 255 255 }
+				}
+				b_courtoun = {
+					province = 183
+					
+					color = { 112 105 79 }
+					color2 = { 255 255 255 }
+				}
+				b_lonely_oak = {
+					province = 184
+					
+					color = { 180 196 108 }
+					color2 = { 255 255 255 }n
+				}
+			}
+		}
+		
+	}
+	
 }
